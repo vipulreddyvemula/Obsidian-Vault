@@ -11,10 +11,14 @@
             "id": "2d7f0366e800ae21",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "C++/STRINGS(STL).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "STRINGS(STL)"
             }
           }
         ]
@@ -162,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,6 +182,7 @@
   },
   "active": "2d7f0366e800ae21",
   "lastOpenFiles": [
+    "Untitled.base",
     "Untitled 1.base",
     "Untitled 6.base",
     "Untitled 5.base",
@@ -212,8 +216,7 @@
     "CSS/LEVEL - 3.md",
     "CSS/CSS - LEVEL 2.md",
     "CSS/CSS - LEVEL 1.md",
-    "CSS",
-    "C++/START.md",
+    "C++/STRINGS(STL).md",
     "c language apna college questions/CHAPTER 2 - questions.md",
     "c language apna college questions/CHAPTER 1-questions.md",
     "c language/CHAPTER 8 - Strings.md",
