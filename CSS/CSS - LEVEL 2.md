@@ -1,0 +1,15 @@
+**==BOX MODEL IN CSS==**
+
+![[Pasted image 20251026204851.png]]
+![[Pasted image 20251026204905.png]]
+![[Pasted image 20251026204923.png]]
+![[Pasted image 20251026204940.png]]
+![[Pasted image 20251026204956.png]]
+![[Pasted image 20251026205008.png]]
+![[Pasted image 20251026205020.png]]
+![[Pasted image 20251026205034.png]]
+![[Pasted image 20251026205056.png]]
+![[Pasted image 20251026205114.png]]
+![[Pasted image 20251026212012.png]]
+![[Pasted image 20251026212024.png]]
+![[Pasted image 20251026212036.png]]

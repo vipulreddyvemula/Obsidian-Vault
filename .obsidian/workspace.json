@@ -8,35 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "12720993a7ab2d65",
+            "id": "d2f795a7c782956f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          },
-          {
-            "id": "79f8bbfa8217b308",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VECTORS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VECTORS"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,14 +146,23 @@
               "icon": "lucide-list",
               "title": "Outline of Untitled"
             }
+          },
+          {
+            "id": "7f8b16827d13110f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,11 +176,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "79f8bbfa8217b308",
+  "active": "d2f795a7c782956f",
   "lastOpenFiles": [
-    "Untitled 1.base",
-    "Untitled.base",
-    "Welcome.md",
-    "VECTORS.md"
+    "create a link.md",
+    "HTML/HTML - LEVEL 3.md",
+    "VECTORS/VECTORS.md",
+    "VECTORS",
+    "Pasted image 20251027160730.png",
+    "Pasted image 20251027160702.png",
+    "Pasted image 20251027160644.png",
+    "Pasted image 20251027160632.png",
+    "Pasted image 20251026212036.png",
+    "Pasted image 20251026212024.png",
+    "Pasted image 20251026212012.png",
+    "Pasted image 20251026205114.png",
+    "Pasted image 20251026205056.png",
+    "Pasted image 20251026205034.png",
+    "python free code camp from middle/{For Loops},(Exponent functions),(Comments),{Try or Except blocks}.md",
+    "python free code camp from middle/List Functions , Tuples, Def Functions ,Return functions , If else statements,Calculator,Dictionaries--{Part - 1}.md",
+    "python free code camp from middle/GUESS GAME,BULDING A TRANSLATOR.md",
+    "python free code camp from middle",
+    "HTML/HTML - LEVEL PRO.md",
+    "HTML/HTML - LEVEL 2.md",
+    "HTML/HTML - LEVEL 1.md",
+    "HTML",
+    "CSS/LEVEL - 3.md",
+    "CSS/CSS - LEVEL 2.md",
+    "CSS/CSS - LEVEL 1.md",
+    "CSS",
+    "C++/START.md",
+    "C++",
+    "c language apna college questions/CHAPTER 2 - questions.md",
+    "c language apna college questions/CHAPTER 1-questions.md",
+    "c language apna college questions",
+    "c language/CHAPTER 9 - Structures.md",
+    "c language/CHAPTER 8 - Strings.md",
+    "c language/CHAPTER 7 - Arrays.md",
+    "c language/CHAPTER 6 - Pointers.md",
+    "c language/CHAPTER 5 - Functions and Recursions.md",
+    "c language/CHAPTER 4 - Loop Control statements.md",
+    "c language/CHAPTER 3 - Conditional statements.md",
+    "c language/CHAPTER 2 - Operator's.md",
+    "c language/CHAPTER 1- Intro.md",
+    "c language",
+    "Obsidian Vault/python free code camp from middle/{For Loops},(Exponent functions),(Comments),{Try or Except blocks}.md",
+    "Obsidian Vault/python free code camp from middle/List Functions , Tuples, Def Functions ,Return functions , If else statements,Calculator,Dictionaries--{Part - 1}.md",
+    "Obsidian Vault/python free code camp from middle",
+    "Obsidian Vault/c language apna college questions",
+    "Obsidian Vault/c language"
   ]
 }
