@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,21 +182,22 @@
   },
   "active": "2d7f0366e800ae21",
   "lastOpenFiles": [
+    "Untitled 1.base",
+    "VECTORS/VECTORS.md",
+    "Untitled 2.base",
+    "README.md",
     "C++/STRINGS(STL).md",
     "c language/CHAPTER 6 - Pointers.md",
     "Untitled.base",
-    "Untitled 1.base",
     "Untitled 6.base",
     "Untitled 5.base",
     "Untitled 4.base",
     "Untitled 3.base",
-    "Untitled 2.base",
     "c language/CHAPTER 9 - Structures.md",
     "HTML/HTML - LEVEL 3.md",
     "HTML/HTML - LEVEL PRO.md",
     "png files",
     "create a link.md",
-    "VECTORS/VECTORS.md",
     "VECTORS",
     "png files/Pasted image 20251027160730.png",
     "png files/Pasted image 20251027160702.png",
@@ -226,7 +226,6 @@
     "c language/CHAPTER 4 - Loop Control statements.md",
     "c language/CHAPTER 3 - Conditional statements.md",
     "c language/CHAPTER 2 - Operator's.md",
-    "c language/CHAPTER 1- Intro.md",
-    "Obsidian Vault/python free code camp from middle/{For Loops},(Exponent functions),(Comments),{Try or Except blocks}.md"
+    "c language/CHAPTER 1- Intro.md"
   ]
 }
