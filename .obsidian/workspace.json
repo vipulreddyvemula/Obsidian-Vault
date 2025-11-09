@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/STRINGS(STL).md",
+                "file": "VECTORS/VECTORS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STRINGS(STL)"
+              "title": "VECTORS"
             }
           }
         ]
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,6 +183,8 @@
   },
   "active": "2d7f0366e800ae21",
   "lastOpenFiles": [
+    "C++/STRINGS(STL).md",
+    "c language/CHAPTER 6 - Pointers.md",
     "Untitled.base",
     "Untitled 1.base",
     "Untitled 6.base",
@@ -212,16 +215,13 @@
     "python free code camp from middle",
     "HTML/HTML - LEVEL 2.md",
     "HTML/HTML - LEVEL 1.md",
-    "HTML",
     "CSS/LEVEL - 3.md",
     "CSS/CSS - LEVEL 2.md",
     "CSS/CSS - LEVEL 1.md",
-    "C++/STRINGS(STL).md",
     "c language apna college questions/CHAPTER 2 - questions.md",
     "c language apna college questions/CHAPTER 1-questions.md",
     "c language/CHAPTER 8 - Strings.md",
     "c language/CHAPTER 7 - Arrays.md",
-    "c language/CHAPTER 6 - Pointers.md",
     "c language/CHAPTER 5 - Functions and Recursions.md",
     "c language/CHAPTER 4 - Loop Control statements.md",
     "c language/CHAPTER 3 - Conditional statements.md",
