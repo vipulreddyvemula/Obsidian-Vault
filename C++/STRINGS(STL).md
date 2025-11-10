@@ -34,19 +34,19 @@ int main(){
 array<int, 5> arr = {1, 3, 4, 5, 6}; 
 
 // Forward iteration using iterators from begin() to end()
-for(auto it : arr.begin(); it != arr.end(); it++) {
+for(auto it = arr.begin(); it != arr.end(); it++) {
     cout << *it << " ";  // Dereference iterator to get value
 }
 
 
 // Reverse iteration using reverse iterators from rbegin() to rend()
-for(auto it : arr.rbegin(); it != arr.rend(); it++) {
+for(auto it = arr.rbegin(); it != arr.rend(); it++) {
     cout << *it << " ";  // Dereference iterator for reverse order
 }
 
 
 // Reverse iteration using normal iterators by decrementing
-for(auto it : arr.end() - 1; it >= arr.begin(); it--) {
+for(auto it = arr.end() - 1; it >= arr.begin(); it--) {
     cout << *it << " ";  // Dereference iterator to get value
 }
 
