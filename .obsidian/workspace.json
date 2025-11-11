@@ -157,31 +157,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md",
+                "file": "C++/SET(STL).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
-            }
-          },
-          {
-            "id": "7f8b16827d13110f",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "title": "Outline of SET(STL)"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,8 +187,8 @@
   },
   "active": "6debddb4380237c1",
   "lastOpenFiles": [
-    "C++/VECTORS(STL).md",
     "C++/SET(STL).md",
+    "C++/VECTORS(STL).md",
     "Untitled 1.base",
     "VECTORS/VECTORS.md",
     "Untitled 2.base",
