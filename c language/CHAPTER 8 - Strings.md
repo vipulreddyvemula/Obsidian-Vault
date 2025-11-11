@@ -65,6 +65,10 @@ int main() {
     strcpy(newVal, oldVal);      //copies value of old string to new string
     puts(newVal);
     
+    char str[100];
+    fgets(str,sizeof(str),stdin);
+    str[strcspn(str,"\n")]='\0';   //counts at whic h value an element(\n) is 
+    
     
     char firstStr[50] = "Hello ";
     char secStr[] = "World";
