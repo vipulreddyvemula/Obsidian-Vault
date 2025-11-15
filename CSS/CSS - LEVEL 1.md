@@ -123,10 +123,11 @@ Styles only the first line of a block element’s text.
 
 ```css
 
-`p::first-line {   font-weight: bold;   /* First line appears bold */  color: darkblue; }`
+`p::first-line { 
+  font-weight: bold;   /* First line appears bold */ 
+  color: darkblue; }`
 
 <!-- Great for highlighting introductory sentences in paragraphs. -->
-
 ```
 ### `::first-letter`
 
@@ -135,7 +136,11 @@ Styles the first letter of a block element.
 
 ```css
 
-`p::first-letter {   font-size: 2em;      /* Enlarges first letter (drop cap) */  color: orange;  font-weight: bold; }`
+`p::first-letter {
+   font-size: 2em;      /* Enlarges first letter (drop cap) */
+   color: orange;
+   font-weight: bold; 
+}`
 
 <!-- Perfect for magazine-style effects or creative intros. -->
 ```
@@ -145,7 +150,10 @@ Inserts content before the real content of the element.
 
 ```css
 
-`h1::before {   content: "★ ";       /* Adds a star before every <h1> */  color: gold; }`
+`h1::before {   
+	content: "★ ";       /* Adds a star before every <h1> */  
+	color: gold;
+}`
 
 <!-- No need to change the underlying HTML for icons or highlights. -->
 ```
@@ -156,7 +164,10 @@ Inserts content after the element’s content.
 
 ```css
 
-`button::after {   content: " ⏎";       /* Adds an arrow after each button */  color: gray; }`
+`button::after {   
+	content: " ⏎";       /* Adds an arrow after each button */  
+	color: gray; 
+}`
 
 <!-- Use for action hints, tooltips, badges, or explanatory symbols. -->
 ```
@@ -166,7 +177,10 @@ Inserts content after the element’s content.
 Styles the marker (bullet/number) of list items.
 
 ```css
-`li::marker {   color: red;          /* Makes bullets/numbers red */  font-size: 1.4em; }`
+`li::marker {   
+	color: red;          /* Makes bullets/numbers red */  
+	font-size: 1.4em; 
+}`
 
 <!-- Lets you change the look of lists quickly without extra markup. -->
 ```
@@ -175,7 +189,10 @@ Styles the marker (bullet/number) of list items.
 Changes styles for text selected/highlighted by users.
 
 ```css
-`::selection {   background: yellow;  /* Selected text gets a yellow background */  color: black; }`
+`::selection {   
+	background: yellow;  /* Selected text gets a yellow background */  
+	color: black; 
+}`
 
 <!-- Limited to text and background color; cannot style fonts or layout. -->
 ```
