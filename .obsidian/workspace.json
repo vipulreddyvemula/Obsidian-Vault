@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/VECTORS(STL).md",
+                "file": "CSS/CSS - LEVEL 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VECTORS(STL)"
+              "title": "CSS - LEVEL 1"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/SET(STL).md",
+                "file": "c language/CHAPTER 6 - Pointers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SET(STL)"
+              "title": "CHAPTER 6 - Pointers"
             }
           },
           {
@@ -91,8 +91,7 @@
               "title": "Stack and Queue"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -149,8 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ca3a0d0d98923bad",
@@ -242,17 +240,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "6debddb4380237c1",
+  "active": "2d7f0366e800ae21",
   "lastOpenFiles": [
+    "CSS/LEVEL - 3.md",
+    "CSS/CSS - LEVEL 2.md",
     "C++/MAP(STL) AND PAIR(STL).md",
-    "C++/Stack and Queue.md",
-    "C++/SET(STL).md",
+    "CSS/CSS - LEVEL 1.md",
+    "c language/CHAPTER 6 - Pointers.md",
     "C++/VECTORS(STL).md",
     "HTML/HTML - LEVEL PRO.md",
     "HTML/HTML - LEVEL 3.md",
-    "CSS/LEVEL - 3.md",
-    "CSS/CSS - LEVEL 2.md",
-    "CSS/CSS - LEVEL 1.md",
+    "C++/Stack and Queue.md",
+    "C++/SET(STL).md",
     "HTML/HTML - LEVEL 2.md",
     "Pasted image 20251112001759.png",
     "PAIR AND.md",
@@ -262,7 +261,6 @@
     "VECTORS/VECTORS.md",
     "Untitled 2.base",
     "README.md",
-    "c language/CHAPTER 6 - Pointers.md",
     "Untitled.base",
     "Untitled 6.base",
     "Untitled 5.base",

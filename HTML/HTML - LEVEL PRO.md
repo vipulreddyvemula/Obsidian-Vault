@@ -123,3 +123,11 @@ CLasses and ID
 
 ==**Video Tag**==
 ![[Pasted image 20251022205850.png]]
+
+==**Frame Tag**== :- to frame webpages
+```html
+<frameset cols="25%,75%">
+  <frame src="menu.html" name="list" ></frame>
+  <frame src="home.html" name="home"></frame>
+</frameset>
+```
