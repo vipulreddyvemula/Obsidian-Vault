@@ -204,7 +204,7 @@ Changes styles for text selected/highlighted by users.
 [CSS Attribute Selectors](https://www.w3schools.com/css/css_attribute_selectors.asp)
 
 
-==**Text Properties**==
+	==**Text Properties**==
 - T=text-align : left / right / center
 ```css
 selector {

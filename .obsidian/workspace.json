@@ -123,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "shad",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -243,8 +243,8 @@
   "active": "2d7f0366e800ae21",
   "lastOpenFiles": [
     "CSS/CSS - LEVEL 2.md",
-    "CSS/LEVEL - 3.md",
     "CSS/CSS - LEVEL 1.md",
+    "CSS/LEVEL - 3.md",
     "C++/MAP(STL) AND PAIR(STL).md",
     "c language/CHAPTER 6 - Pointers.md",
     "C++/VECTORS(STL).md",
