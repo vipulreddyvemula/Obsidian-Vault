@@ -39,10 +39,28 @@
             "id": "dbebeba98aee4ae0",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "JS/ARRAYS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ARRAYS"
+            }
+          },
+          {
+            "id": "c975e5ff00ec6299",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS/ACCESING DOM ELEMENTS AND MANIPULATION.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ACCESING DOM ELEMENTS AND MANIPULATION"
             }
           },
           {
@@ -116,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -265,16 +283,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "dbebeba98aee4ae0",
+  "active": "c975e5ff00ec6299",
   "lastOpenFiles": [
-    "EASY.md",
+    "JS/ARRAYS.md",
+    "JS/ACCESING DOM ELEMENTS AND MANIPULATION.md",
+    "create a link.md",
+    "PAIR AND.md",
+    "Untitled.base",
+    "Welcome.md",
+    "README.md",
+    "Pasted image 20251112001759.png",
+    "CSS/Flex box.md",
     "CSS/CSS - LEVEL 2.md",
     "JS",
     "CSS/CSS - LEVEL 1.md",
     "c language/CHAPTER 9 - Structures.md",
     "c language/CHAPTER 8 - Strings.md",
     "c language/CHAPTER 7 - Arrays.md",
-    "Flex box.md",
     "HTML/HTML - LEVEL PRO.md",
     "CSS/LEVEL - 3.md",
     "C++/MAP(STL) AND PAIR(STL).md",
@@ -284,20 +309,15 @@
     "C++/Stack and Queue.md",
     "C++/SET(STL).md",
     "HTML/HTML - LEVEL 2.md",
-    "Pasted image 20251112001759.png",
-    "PAIR AND.md",
     "C++/STRINGS(STL).md",
     "Untitled 1.base",
     "VECTORS/VECTORS.md",
     "Untitled 2.base",
-    "README.md",
-    "Untitled.base",
     "Untitled 6.base",
     "Untitled 5.base",
     "Untitled 4.base",
     "Untitled 3.base",
     "png files",
-    "create a link.md",
     "VECTORS",
     "png files/Pasted image 20251027160730.png",
     "png files/Pasted image 20251027160702.png",
@@ -310,8 +330,6 @@
     "png files/Pasted image 20251026205056.png",
     "python free code camp from middle/{For Loops},(Exponent functions),(Comments),{Try or Except blocks}.md",
     "python free code camp from middle/List Functions , Tuples, Def Functions ,Return functions , If else statements,Calculator,Dictionaries--{Part - 1}.md",
-    "python free code camp from middle/GUESS GAME,BULDING A TRANSLATOR.md",
-    "HTML/HTML - LEVEL 1.md",
-    "c language apna college questions/CHAPTER 2 - questions.md"
+    "python free code camp from middle/GUESS GAME,BULDING A TRANSLATOR.md"
   ]
 }
