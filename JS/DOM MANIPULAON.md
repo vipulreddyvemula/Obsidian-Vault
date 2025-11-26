@@ -1,24 +1,3 @@
-1. `getElementById()`
-```js
-document.getElementById("myId");
-```
-2. `getElementsByClassName()`
-```js
-document.getElementsByClassName("myClass");
-```
-3. `querySelector()`
-```js
-document.querySelector(".class"); 
-document.querySelector("#id");
-document.querySelector("div > p");
-```
-✔ Returns the **first match**  
-4. `querySelectorAll()`
-```js
-document.querySelectorAll("p.myClass");
-```
-
-# DOM Manipulation
 1. Changing Text
 ```js
 element.textContent = "New Text"; 
@@ -106,16 +85,58 @@ div.textContent = "Hello!";
 ```js
 parent.appendChild(child); 
 // Adds element at the end of parent
-//
+//adds just one element and cant enter its text
 
 parent.append(newElement);  
 // Same as appendChild but more flexible
+//can add text too
+	ul.append(document.createElement("li"), "More");
+	//creates li,adds it to ul,give the text more
 
 parent.prepend(newElement); 
 // Adds at the start of parent
 
 parent.insertBefore(newEl, existingEl); 
 // Inserts newEl before existingEl
-
 ```
- 
+
+<hr>
+
+7. Removing Elements
+```js
+element.remove(); 
+// Removes the element directly
+
+// OR
+parent.removeChild(child); 
+// Removes a child using the parent
+```
+
+<hr>
+
+8. Replacing Elements
+```js
+parent.replaceChild(newEl, oldEl); 
+// Replaces oldEl with newEl
+```
+
+<hr>
+
+9. Cloning Elements
+```js
+const clone = element.cloneNode(true); 
+// true → deep clone (copies children too)
+
+parent.appendChild(clone); 
+// Adds the clone to the page
+```
+
+<hr>
+
+### Event-Based Manipulation
+```js
+element.addEventListener("click", () => {
+    // This code runs when element is clicked
+    element.style.color = "blue"; 
+	});
+```
