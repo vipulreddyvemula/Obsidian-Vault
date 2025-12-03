@@ -19,3 +19,4 @@ Priority            Operator
    6                       &&
    7                       ||
    8                       =
+   ![[Pasted image 20250810115002.png]]
