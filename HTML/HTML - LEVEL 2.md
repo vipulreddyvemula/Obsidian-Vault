@@ -1,4 +1,4 @@
-```html
+	```html
 <!DOCTYPE html>
 <html lang="en">   <!-- this is HTML attribute--> <!-- <html lang="en"> -->
 <head>       <!--Attributes are used to add more information to the tag -->

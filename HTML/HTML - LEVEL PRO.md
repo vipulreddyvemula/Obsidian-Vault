@@ -115,7 +115,7 @@ CLasses and ID
 **==Textarea==**
 ![[Pasted image 20251022191511.png]]
 ==**SELECT ==**
-![[Pasted image 20251022191848.png]]
+x
 ![[Pasted image 20251022191911.png]]
 
 **==Iframe tag==**

@@ -63,3 +63,15 @@ while (fscanf(fp, "%d", &x) == 1) {
 
 fclose(fp);
 ```
+
+
+```c
+char buf[100]; 
+(ch=fgetc(fp))!=EOF
+fprintf(fp, "Value = %d\n", x);   
+fputs("Hello\n", fp)
+rewind(fp)
+fgets(buf, sizeof(buf), fp);
+fputc('A', fp);   
+
+```
