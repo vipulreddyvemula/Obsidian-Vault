@@ -1,4 +1,4 @@
-==**Vector Syntax**==
+	==**Vector Syntax**==
 ```cpp
 #include<iostream>
 #include<vector>
@@ -6,7 +6,7 @@ using namespace std;
 int main(){
     vector<int> vec;
     vector<int> vec1 = {1,2,3};
-    vector<int> vec2(3,0);
+    vector<int> vec2(3,0);             // {0,0,0}
 
     cout<<vec1[0]<<endl;
 }
