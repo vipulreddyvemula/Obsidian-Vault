@@ -1,4 +1,4 @@
-	==**Vector Syntax**==
+		==**Vector Syntax**==
 ```cpp
 #include<iostream>
 #include<vector>
