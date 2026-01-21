@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/STRINGS(STL).md",
+                "file": "C++/Stack and Queue.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STRINGS(STL)"
+              "title": "Stack and Queue"
             }
           }
         ],
@@ -202,6 +202,7 @@
   },
   "active": "45bf0a3f8b92aa7b",
   "lastOpenFiles": [
+    "C++/STRINGS(STL).md",
     "C++/MAP(STL) AND PAIR(STL).md",
     "C++/VECTORS(STL).md",
     "C++/Linked Lists.md",
@@ -209,7 +210,6 @@
     "c language/CHAPTER 6 - Pointers.md",
     "c language/CHAPTER 5 - Functions and Recursions.md",
     "C++/SET(STL).md",
-    "C++/STRINGS(STL).md",
     "CSS/CSS - LEVEL 2.md",
     "c language/CHAPTER 11- FILE.md",
     "JS/ACCESING DOM ELEMENTS.md",
