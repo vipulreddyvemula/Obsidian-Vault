@@ -2,7 +2,7 @@ A set in [STL](https://takeuforward.org/c/c-stl-tutorial-most-frequent-used-stl
 ```cpp
 //commands are similar to previous stl so repeated notes is not written
 
-set<int> st;                         //syntax
+set<int> st;                         //syntax --> sorted unique element
 set<object_type> variable_name;      //syntax
 
 unordered_set<int>st;                //sytnax --> unsorted unique element
