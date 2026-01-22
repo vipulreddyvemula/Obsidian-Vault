@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "Stack and Queue"
             }
+          },
+          {
+            "id": "45c98c9f2cc3293c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -200,7 +212,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "45bf0a3f8b92aa7b",
+  "active": "45c98c9f2cc3293c",
   "lastOpenFiles": [
     "C++/STRINGS(STL).md",
     "C++/MAP(STL) AND PAIR(STL).md",
