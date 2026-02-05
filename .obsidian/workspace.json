@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/MAP(STL) AND PAIR(STL).md",
+                "file": "C++/Stack and Queue.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MAP(STL) AND PAIR(STL)"
+              "title": "Stack and Queue"
             }
           }
         ],
@@ -216,10 +216,10 @@
   },
   "active": "2f93efb7b2924458",
   "lastOpenFiles": [
+    "C++/STRINGS(STL).md",
+    "C++/MAP(STL) AND PAIR(STL).md",
     "C++/SET(STL).md",
     "C++/Stack and Queue.md",
-    "C++/MAP(STL) AND PAIR(STL).md",
-    "C++/STRINGS(STL).md",
     "c language/CHAPTER 10- DMA.md",
     "c language/CHAPTER 9 - Structures.md",
     "DSA/Daksh.md",
