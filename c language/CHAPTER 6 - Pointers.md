@@ -1,4 +1,4 @@
-	 ![[Pasted image 20250831205400.png]]
+ ![[Pasted image 20250831205400.png]]
 ![[Pasted image 20250831205439.png]]
 **==// &age is like address of a pointer**==
  ==**// asterisk(ptr) is value  at the address==** 
