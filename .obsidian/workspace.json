@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stack using Linked List.md",
+                "file": "DSA/Linked Lists/Single Linked Lists.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stack using Linked List"
+              "title": "Single Linked Lists"
             }
           }
         ],
@@ -272,11 +272,11 @@
   },
   "active": "4ec63dd4613f566e",
   "lastOpenFiles": [
+    "c language/CHAPTER 6 - Pointers.md",
     "DSA/Stack/Stack using Array Structure.md",
+    "DSA/Stack/Stack Using Array.md",
     "Stack using Linked List.md",
     "DSA/Linked Lists/Single Linked Lists.md",
-    "c language/CHAPTER 6 - Pointers.md",
-    "DSA/Stack/Stack Using Array.md",
     "C++/MAP(STL) AND PAIR(STL).md",
     "C++/Linked Lists.md",
     "C++/Stack and Queue.md",
