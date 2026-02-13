@@ -1,3 +1,5 @@
+Wrote a program on stack implemented by an array. This stack stores integer values only.
+Stores 5 integers in this stack.
 ```cpp
 #include<stdio.h>
 #define MAX 5
