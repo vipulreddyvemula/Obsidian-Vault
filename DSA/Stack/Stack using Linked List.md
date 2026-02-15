@@ -72,7 +72,7 @@ int main(){
 ```
 
 
-Same question answer with notes to understand
+Same question answer with notes to understand it
 ```scss
 stack1        → pointer variable (top of stack)
 
