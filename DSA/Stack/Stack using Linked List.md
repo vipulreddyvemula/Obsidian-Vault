@@ -1,3 +1,5 @@
+Related: [[Linked Lists]]
+
 ==Simple code without comments and notes for== 
 ==Create two stacks implemented by linked list. Pop all the elements from one stack and==
 ==push them into another one. Then peek/traverse all the elements in 2nd stack==

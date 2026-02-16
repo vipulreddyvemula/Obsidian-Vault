@@ -1,3 +1,5 @@
+Related: [[Linked Lists]]
+
 ```cpp
 /* SINGLY LINKED LIST */
 
