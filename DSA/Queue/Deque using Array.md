@@ -1,4 +1,4 @@
-Simple Implementation of Deque Using Array
+**==Simple Implementation of Deque Using Array==**
 ```cpp
 #include<stdio.h>
 #define max 5
