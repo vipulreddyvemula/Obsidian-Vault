@@ -11,10 +11,10 @@
             "id": "6aa7c5ba721ff884",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -178,18 +178,18 @@
   },
   "active": "6aa7c5ba721ff884",
   "lastOpenFiles": [
+    "README.md",
+    "Untitled.base",
+    "DSA/Queue/Queue Using Array.md",
+    "DSA/Queue/Queue using Array Structure.md",
+    "DSA/Queue/Queue using Linked Lists.md",
+    "DSA/Queue/Deque using Array.md",
     "DSA/Stack/Stack using Linked List.md",
-    "DSA/Stack/Infix to Postfix.md",
-    "DSA/Stack/Postfix Evaluation.md",
     "DSA/Stack/Stack using Array Structure.md",
     "DSA/Stack/Stack Using Array.md",
-    "DSA/Queue/Queue Using Array.md",
     "DSA/Linked Lists/Single Linked Lists.md",
-    "DSA/Queue/Deque using Array.md",
-    "DSA/Queue/Queue using Linked Lists.md",
-    "DSA/Queue/Queue using Array Structure.md",
-    "Untitled.base",
-    "README.md",
+    "DSA/Stack/Infix to Postfix.md",
+    "DSA/Stack/Postfix Evaluation.md",
     "DSA/Queue",
     "C++/STRINGS(STL).md",
     "C++/VECTORS(STL).md",
@@ -208,7 +208,6 @@
     "DSA",
     "c language/CHAPTER 5 - Functions and Recursions.md",
     "CSS/CSS - LEVEL 2.md",
-    "c language/CHAPTER 11- FILE.md",
     "png files/Pasted image 20250810115002.png",
     "Pasted image 20251125111557.png",
     "Pasted image 20251112001759.png",
