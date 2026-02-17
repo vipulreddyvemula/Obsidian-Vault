@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "5ec09eb87e593225",
+        "id": "9b1bd3e68a10ebd2",
         "type": "tabs",
         "children": [
           {
-            "id": "634aac2856ecec31",
+            "id": "6aa7c5ba721ff884",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA/Stack/Stack using Linked List.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Stack using Linked List"
-            }
-          },
-          {
-            "id": "13010c63d0df8794",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA/Stack/Infix to Postfix.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Infix to Postfix"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,11 +176,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "13010c63d0df8794",
+  "active": "6aa7c5ba721ff884",
   "lastOpenFiles": [
     "DSA/Stack/Stack using Linked List.md",
-    "DSA/Stack/Stack using Array Structure.md",
     "DSA/Stack/Infix to Postfix.md",
+    "DSA/Stack/Postfix Evaluation.md",
+    "DSA/Stack/Stack using Array Structure.md",
     "DSA/Stack/Stack Using Array.md",
     "DSA/Queue/Queue Using Array.md",
     "DSA/Linked Lists/Single Linked Lists.md",
@@ -227,7 +209,6 @@
     "c language/CHAPTER 5 - Functions and Recursions.md",
     "CSS/CSS - LEVEL 2.md",
     "c language/CHAPTER 11- FILE.md",
-    "JS/ACCESING DOM ELEMENTS.md",
     "png files/Pasted image 20250810115002.png",
     "Pasted image 20251125111557.png",
     "Pasted image 20251112001759.png",
