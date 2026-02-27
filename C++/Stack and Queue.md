@@ -117,6 +117,8 @@ dequeue<int> dq;
 // push_back() 
 // pop_front() 
 // pop_back()
+// front() // to peek first element
+// back() to peek top element
 // begin, end, rbegin, rend 
 // size 
 // clear
