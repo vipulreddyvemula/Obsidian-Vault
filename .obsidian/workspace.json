@@ -92,6 +92,18 @@
             }
           },
           {
+            "id": "e1e93cc65cbb80bc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
+            }
+          },
+          {
             "id": "65437f5f6964715a",
             "type": "leaf",
             "state": {
@@ -120,7 +132,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -280,7 +292,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "87320ad5b213d15c",
+  "active": "e1e93cc65cbb80bc",
   "lastOpenFiles": [
     "C++/VECTORS(STL).md",
     "C++/SET(STL).md",
