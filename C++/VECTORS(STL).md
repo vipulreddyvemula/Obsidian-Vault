@@ -77,6 +77,9 @@ int item = v.at(1); // item = 4
 
 ---
 
+### empty()
+//returns boolean value based on vector is empty or not
+
 ### clear()
 
 vec.clear(); // --> erase all elements at once {}

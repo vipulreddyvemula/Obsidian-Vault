@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/VECTORS(STL).md",
+                "file": "C++/MAP(STL) AND PAIR(STL).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VECTORS(STL)"
+              "title": "MAP(STL) AND PAIR(STL)"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ca3a0d0d98923bad",
@@ -183,14 +184,15 @@
   },
   "active": "444a3a7ef5f53956",
   "lastOpenFiles": [
+    "C++/SET(STL).md",
+    "C++/Stack and Queue.md",
+    "C++/MAP(STL) AND PAIR(STL).md",
+    "C++/VECTORS(STL).md",
     "c language/CHAPTER 1- Intro.md",
     "DSA/Tree/Binary Tree.md",
     "c language/CHAPTER 2 - Operator's.md",
     "Things i learn during solving/Math.md",
     "DSA/Queue/Queue using Linked Lists.md",
-    "C++/VECTORS(STL).md",
-    "C++/SET(STL).md",
-    "C++/Stack and Queue.md",
     "Things i learn during solving",
     "DSA/Stack/Infix to Postfix.md",
     "DSA/Linked Lists/Single Linked Lists.md",
@@ -210,7 +212,6 @@
     "Stack.md",
     "Stack using Linked Lists.md",
     "c language/CHAPTER 6 - Pointers.md",
-    "C++/MAP(STL) AND PAIR(STL).md",
     "C++/Linked Lists.md",
     "DSA/Stack",
     "DSA/Linked Lists",
