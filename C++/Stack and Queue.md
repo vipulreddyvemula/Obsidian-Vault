@@ -1,4 +1,4 @@
-==**Stack**== :- it is nothing but last in first out(lifo)  data structure
+ ==**Stack**== :- it is nothing but last in first out(lifo)  data structure
 ```cpp
 //stack     //0(1)
 stack<int> st;  //lifo ds
