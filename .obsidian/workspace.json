@@ -183,8 +183,9 @@
   },
   "active": "444a3a7ef5f53956",
   "lastOpenFiles": [
-    "C++/VECTORS(STL).md",
     "C++/Stack and Queue.md",
+    "C++/SET(STL).md",
+    "C++/VECTORS(STL).md",
     "C++/MAP(STL) AND PAIR(STL).md",
     "C++/STRINGS(STL).md",
     "DSA/Queue/Queue using Linked Lists.md",
@@ -196,7 +197,6 @@
     "DSA/Queue/Deque using Array.md",
     "DSA/Stack/Stack using Array Structure.md",
     "DSA/Linked Lists/Single Linked Lists.md",
-    "C++/SET(STL).md",
     "c language/CHAPTER 1- Intro.md",
     "DSA/Tree/Binary Tree.md",
     "c language/CHAPTER 2 - Operator's.md",
