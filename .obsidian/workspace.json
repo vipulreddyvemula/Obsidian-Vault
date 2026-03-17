@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Exception Handling.md",
+                "file": "C++/STRINGS(STL).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exception Handling"
+              "title": "STRINGS(STL)"
             }
           }
         ],
@@ -196,10 +196,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "a4ea77cba18873de",
+  "active": "a1076af8797ec7d9",
   "lastOpenFiles": [
-    "C++/MAP(STL) AND PAIR(STL).md",
+    "c language/CHAPTER 8 - Strings.md",
     "Java/Exception Handling.md",
+    "C++/MAP(STL) AND PAIR(STL).md",
     "Java",
     "C++/SET(STL).md",
     "C++/Stack and Queue.md",
@@ -224,7 +225,6 @@
     "README.md",
     "Untitled.base",
     "DSA/Queue",
-    "c language/CHAPTER 8 - Strings.md",
     "Stack.md",
     "Stack using Linked Lists.md",
     "c language/CHAPTER 6 - Pointers.md",
