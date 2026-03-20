@@ -49,3 +49,21 @@ Subtract smaller number from larger repeatedly until both become equal.
 NOTE:- GCD(a,b)=GCD(a-b,b);
 
 ---
+
+## 3) To check if a number is prime or not
+```cpp
+bool isPrime(int n){  
+if(n <= 1) return false;  
+for(int i = 2; i * i <= n; i++){  
+if(n % i == 0) return false;  
+}  
+return true;  
+}
+```
+##### Complexity
+O(√n)
+
+#####  Key Idea
+- Divisors come in pairs → only check till **√n**
+---
+	

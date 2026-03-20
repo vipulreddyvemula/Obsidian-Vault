@@ -81,4 +81,8 @@ cout << arr.back();
 ```
 
 
-
+Finding a substring
+```cpp
+size_t pos = s.find("abc");  ---> if index found returns starting index of                                   substring
+               else returns string::npos which is equal to -1 in unsigned                 i.e max value in unsigned
+```
