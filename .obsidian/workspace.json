@@ -76,9 +76,19 @@
               "icon": "lucide-file",
               "title": "Binary Search Tree"
             }
+          },
+          {
+            "id": "434c5fe448a33be6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -237,12 +247,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "a4ea77cba18873de",
+  "active": "434c5fe448a33be6",
   "lastOpenFiles": [
+    "DSA/Tree/Binary Search Tree.md",
     "DSA/Tree/Binary Tree.md",
     "c language/CHAPTER 8 - Strings.md",
     "c language/CHAPTER 2 - Operator's.md",
-    "DSA/Tree/Binary Search Tree.md",
     "Electronic circuits/1) Flip Flop Conversions.md",
     "Electronic circuits/2)Preset and Clear.md",
     "Pasted image 20260410181023.png",
