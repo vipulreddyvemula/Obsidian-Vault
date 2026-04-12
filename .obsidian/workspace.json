@@ -97,7 +97,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -237,7 +237,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "151134ba1f8d58df",
+  "active": "a4ea77cba18873de",
   "lastOpenFiles": [
     "DSA/Tree/Binary Tree.md",
     "c language/CHAPTER 8 - Strings.md",
