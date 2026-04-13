@@ -31,6 +31,7 @@ int main(){
 
 }
 ```
+
 #  Quick Sort – Simple Explanation + Dry Run
 
 ## 🔹 swap()
