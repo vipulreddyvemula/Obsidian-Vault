@@ -82,7 +82,7 @@ mergeSort done → merge(0, 2, 4)    → merges [3,5,8] and [1,4]
 
 ---
 
-### Phase 2 — Merging (Step by Step)
+]### Phase 2 — Merging (Step by Step)
 
 **Step 1:** `merge([5], [3])` → indices 0–1
 

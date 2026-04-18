@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Tree/Binary Search Tree.md",
+                "file": "DSA/Sorting/Merge Sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Binary Search Tree"
+              "title": "Merge Sort"
             }
           },
           {
@@ -324,11 +324,11 @@
   },
   "active": "b027084fcf2d31b2",
   "lastOpenFiles": [
-    "DSA/Sorting/Quick Sort.md",
     "DSA/Sorting/Insertion sort.md",
+    "DSA/Sorting/Quick Sort.md",
     "DSA/Tree/Binary Search Tree.md",
-    "DSA/Tree/Binary Tree.md",
     "DSA/Sorting/Merge Sort.md",
+    "DSA/Tree/Binary Tree.md",
     "DSA/Sorting/Selection Sort.md",
     "DSA/Sorting/Bubble sort.md",
     "DSA/Stack/Stack using Array Structure.md",

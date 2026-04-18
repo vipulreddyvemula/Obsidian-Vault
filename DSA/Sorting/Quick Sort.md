@@ -1,4 +1,4 @@
-```c
+ ```c
 #include<stdio.h>
 void swap(int *a,int *b){
     int temp=*a;
@@ -124,7 +124,8 @@ pivot = 6
 | - | ------ | ------------------------------ |
 | 0 | 9      | skip                           |
 | 1 | 3      | swap with arr[0] → [3,9,7,1,6] |
-| 2 | 7      | skip                           |
+| 2 | 7      | skip    \
+                       |
 | 3 | 1      | swap with arr[1] → [3,1,7,9,6] |
 
 Now:
