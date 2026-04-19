@@ -75,6 +75,58 @@ void DFS_start(struct Graph* graph, int start) {
     printf("\n");
 }
 
+void DFS_iterative(struct graph* gr, int start){
+    bool visited[MAX_VERTICES] = {false};
+    int stack[MAX_VERTICES];
+    int top = -1;
+
+    stack[++top] = start;
+
+    while(top != -1){
+        int vertex = stack[top--];
+
+        if(!visited[vertex]){
+            visited[vertex] = true;
+            printf("%d ", vertex);
+
+            struct node* temp = gr->adj[vertex];
+
+            while(temp != NULL){
+                if(!visited[temp->data]){
+                    stack[++top] = temp->data;
+                }
+                temp = temp->next;
+            }
+        }
+    }
+}
+void BFS(struct graph* gr, int start){
+    bool visited[MAX_VERTICES] = {false};
+    int queue[MAX_VERTICES];
+    int front = 0, rear = 0;
+
+    visited[start] = true;
+    queue[rear++] = start;
+
+    while(front < rear){
+        int vertex = queue[front++];
+        printf("%d ", vertex);
+
+        struct node* temp = gr->adj[vertex];
+
+        while(temp != NULL){
+            int neighbor = temp->data;
+
+            if(!visited[neighbor]){
+                visited[neighbor] = true;
+                queue[rear++] = neighbor;
+            }
+
+            temp = temp->next;
+        }
+    }
+}
+
 // Main
 int main() {
     int vertices = 6;
