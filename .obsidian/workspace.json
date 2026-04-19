@@ -297,13 +297,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Tree/Binary Search Tree.md",
+                "file": "DSA/Graph/DFS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Binary Search Tree"
+              "title": "Outline of DFS"
             }
           },
           {
@@ -317,12 +317,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -336,7 +335,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "fd28fba9db046d23",
+  "active": "151134ba1f8d58df",
   "lastOpenFiles": [
     "DSA/Sorting/Merge Sort.md",
     "DSA/Graph/DFS.md",
