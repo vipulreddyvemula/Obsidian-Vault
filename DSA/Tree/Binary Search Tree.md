@@ -30,10 +30,10 @@ struct node* insert(struct node* root, int val) {
     return root;
 }
 
-// Find minimum (inorder successor)
-struct node* findMin(struct node* root) {
-    while (root->left != NULL)
-        root = root->left;
+// Find maximum (inorder predeccessor)
+struct node* findMax(struct node* root) {
+    while (root->right != NULL)
+        root = root->right;
     return root;
 }
 
@@ -67,9 +67,9 @@ struct node* deleteNode(struct node* root, int key) {
         }
         // Case 3: Two children
         else {
-            struct node* temp = findMin(root->right);
+            struct node* temp = findMax(root->left);
             root->data = temp->data;
-            root->right = deleteNode(root->right, temp->data);
+            root->left = deleteNode(root->left, temp->data);
         }
     }
     return root;
