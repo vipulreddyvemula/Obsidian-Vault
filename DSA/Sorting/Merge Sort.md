@@ -14,19 +14,22 @@ void merge(int arr[],int left,int m,int right){
     int i=0;
     int j=0;
     int k=left;
-    for(int k=left;k<=right;k++){
-        if((i<left_length && j>=right_length)|| (leftarray[i])<rightarray[j]){
-            arr[k]=leftarray[i];
-            i++;
+    while (i < left_length && j < right_length) {
+        if (leftarray[i] <= rightarray[j]) {
+            arr[k++] = leftarray[i++];
+        } else {
+            arr[k++] = rightarray[j++];
         }
-        else{
-            arr[k]=rightarray[j];
-            j++;
-
-        }
-
     }
 
+    // Copy remaining elements
+    while (i < left_length) {
+        arr[k++] = leftarray[i++];
+    }
+
+    while (j < right_length) {
+        arr[k++] = rightarray[j++];
+    }
 
 
 }
