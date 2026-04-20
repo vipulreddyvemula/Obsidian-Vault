@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Heap.md",
+                "file": "DSA/Sorting/Selection Sort.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Heap"
+              "title": "Selection Sort"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Heap.md",
+                "file": "DSA/Sorting/Selection Sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Heap"
+              "title": "Outline of Selection Sort"
             }
           },
           {
@@ -197,8 +197,8 @@
   },
   "active": "15122c83420c1698",
   "lastOpenFiles": [
-    "DSA/Tree/Binary Search Tree.md",
     "Heap.md",
+    "DSA/Tree/Binary Search Tree.md",
     "DSA/Tree/Binary Tree.md",
     "DSA/Stack/Infix to Postfix.md",
     "DSA/Queue/Queue using Linked Lists.md",

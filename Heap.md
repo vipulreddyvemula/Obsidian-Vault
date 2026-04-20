@@ -100,3 +100,27 @@ for (int i = n/2 - 1; i >= 0; i--) {
     heapify(arr, n, i);
 }
 ```
+
+## HeapSort
+```c
+// Heap Sort
+void heapSort(int arr[], int n) {
+
+    // Step 1: Build Max Heap
+    for (int i = n/2 - 1; i >= 0; i--) {
+        heapify(arr, n, i);
+    }
+
+    // Step 2: Extract elements one by one
+    for (int i = n-1; i > 0; i--) {
+        // Move current root to end
+        int temp = arr[0];
+        arr[0] = arr[i];
+        arr[i] = temp;
+
+        // Heapify reduced heap
+        heapify(arr, i, 0);
+    }
+}
+
+```
