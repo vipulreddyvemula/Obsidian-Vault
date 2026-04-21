@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Stack/Stack using Array Structure.md",
+                "file": "DSA/Stack/Stack Using Array.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stack using Array Structure"
+              "title": "Stack Using Array"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Stack/Stack using Array Structure.md",
+                "file": "DSA/Stack/Stack Using Array.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Stack using Array Structure"
+              "title": "Outline of Stack Using Array"
             }
           },
           {
@@ -212,6 +212,7 @@
   },
   "active": "00c438b02dcc6b33",
   "lastOpenFiles": [
+    "DSA/Stack/Stack using Array Structure.md",
     "DSA/Stack/Stack Using Array.md",
     "DSA/Stack/Postfix Evaluation.md",
     "DSA/Stack/Infix to Postfix.md",
@@ -223,7 +224,6 @@
     "DSA/Linked Lists/Single Linked Lists.md",
     "DSA/Queue/Queue using Linked Lists.md",
     "DSA/Queue/Queue Using Array.md",
-    "DSA/Stack/Stack using Array Structure.md",
     "DSA/Sorting/Bubble sort.md",
     "DSA/Sorting/Selection Sort.md",
     "DSA/Sorting/Quick Sort.md",
