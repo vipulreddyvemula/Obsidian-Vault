@@ -23,7 +23,7 @@ void quicksort(int arr[],int left,int right){
         int pivotindex=partition(arr,left,right);
         quicksort(arr,left,pivotindex-1);
         quicksort(arr,pivotindex+1,right);
-        
+        [[Quick Sort]]
     }
 
 }
