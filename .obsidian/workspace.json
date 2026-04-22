@@ -209,8 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,6 +225,8 @@
   },
   "active": "1dbc49d49cbab00c",
   "lastOpenFiles": [
+    "Pasted image 20260422163955.png",
+    "Pasted image 20260422163938.png",
     "Electronic circuits/Counter.md",
     "Electronic circuits/Registers.md",
     "Electronic circuits/Semiconductors.md",
@@ -239,7 +240,6 @@
     "Pasted image 20260422150117.png",
     "Pasted image 20260422145055.png",
     "Pasted image 20260422145038.png",
-    "Pasted image 20260422145005.png",
     "DSA/Tree/Binary Search Tree.md",
     "DSA/Sorting/Merge Sort.md",
     "Electronic circuits/3) mealy and moore.md",
