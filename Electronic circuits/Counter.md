@@ -1,4 +1,4 @@
-Asychronous up counter
+	Asychronous up counter
 ![[Pasted image 20260422095433.png]]
 ![[Pasted image 20260422093819.png]]
 ![[Pasted image 20260422093851.png]]

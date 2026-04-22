@@ -19,4 +19,6 @@ in siso the output take(n=number of bits) 2n clock cycles as it has to reach end
 ![[Pasted image 20260422150303.png]]
 
 In pipo we just give input from msb to lsb and it gets stored in flip flop
+### PISO
+![[Pasted image 20260422153753.png]]
 
