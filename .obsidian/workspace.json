@@ -121,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ca3a0d0d98923bad",
@@ -228,9 +227,9 @@
   "active": "1dbc49d49cbab00c",
   "lastOpenFiles": [
     "Electronic circuits/Registers.md",
+    "Electronic circuits/1) Flip Flop Conversions.md",
     "Electronic circuits/Counter.md",
     "Electronic circuits/2)Preset and Clear.md",
-    "Electronic circuits/1) Flip Flop Conversions.md",
     "Electronic circuits/Semiconductors.md",
     "Pasted image 20260422163955.png",
     "Pasted image 20260422163938.png",
