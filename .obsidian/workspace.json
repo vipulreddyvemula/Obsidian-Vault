@@ -11,10 +11,14 @@
             "id": "96a115020ec8b122",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Counter.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Counter"
             }
           }
         ]
@@ -179,19 +183,22 @@
   },
   "active": "96a115020ec8b122",
   "lastOpenFiles": [
+    "Pasted image 20260422110407.png",
+    "Pasted image 20260422110358.png",
+    "Pasted image 20260422110333.png",
+    "Pasted image 20260422101235.png",
+    "Pasted image 20260422101133.png",
+    "Pasted image 20260422101107.png",
+    "Pasted image 20260422100955.png",
+    "Pasted image 20260422100004.png",
+    "Pasted image 20260422095433.png",
+    "Pasted image 20260422095413.png",
+    "Pasted image 20260422095249.png",
     "DSA/Tree/Binary Search Tree.md",
     "DSA/Sorting/Merge Sort.md",
     "Electronic circuits/1) Flip Flop Conversions.md",
-    "Pasted image 20260410170243.png",
     "Counter.md",
-    "Pasted image 20260422094057.png",
-    "Pasted image 20260422093851.png",
-    "Pasted image 20260422093819.png",
-    "Pasted image 20260422093746.png",
     "Electronic circuits/3) mealy and moore.md",
-    "Pasted image 20260421165725.png",
-    "Pasted image 20260421165249.png",
-    "Pasted image 20260421161933.png",
     "Electronic circuits/2)Preset and Clear.md",
     "DSA/Stack/Stack Using Array.md",
     "DSA/Stack/Stack using Array Structure.md",
@@ -210,13 +217,11 @@
     "DSA/Tree/Hashing.md",
     "DSA/Stack/Stack using Linked List.md",
     "DSA/Queue/Deque using Array.md",
-    "Pasted image 20260410172035.png",
     "C++/SET(STL).md",
     "c language/CHAPTER 9 - Structures.md",
     "Untitled",
     "DSA/Graph",
     "DSA/Sorting",
-    "Pasted image 20260410181023.png",
     "Electronic circuits",
     "Java",
     "DSA/Things i learn during solving",
