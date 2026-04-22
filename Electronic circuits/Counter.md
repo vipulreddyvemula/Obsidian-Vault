@@ -25,3 +25,8 @@ How to design Synchronous counter
 ![[Pasted image 20260422110333.png]]
 ![[Pasted image 20260422110358.png]]
 ![[Pasted image 20260422110407.png]]
+
+### Johnson Counter
+![[Pasted image 20260422112652.png]]
+![[Pasted image 20260422112707.png]]
+![[Pasted image 20260422112720.png]]

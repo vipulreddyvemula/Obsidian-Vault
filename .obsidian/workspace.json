@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Counter.md",
+                "file": "Electronic circuits/Counter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Counter"
             }
+          },
+          {
+            "id": "1d1cbb0b81d0bb9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Electronic circuits/1) Flip Flop Conversions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1) Flip Flop Conversions"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,23 +196,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "96a115020ec8b122",
+  "active": "a4ea77cba18873de",
   "lastOpenFiles": [
+    "Electronic circuits/Registers.md",
+    "Pasted image 20260422142033.png",
+    "Electronic circuits/Counter.md",
+    "Pasted image 20260422112720.png",
+    "Pasted image 20260422112707.png",
+    "Pasted image 20260422112652.png",
     "Pasted image 20260422110407.png",
     "Pasted image 20260422110358.png",
     "Pasted image 20260422110333.png",
     "Pasted image 20260422101235.png",
     "Pasted image 20260422101133.png",
     "Pasted image 20260422101107.png",
-    "Pasted image 20260422100955.png",
-    "Pasted image 20260422100004.png",
-    "Pasted image 20260422095433.png",
-    "Pasted image 20260422095413.png",
-    "Pasted image 20260422095249.png",
     "DSA/Tree/Binary Search Tree.md",
     "DSA/Sorting/Merge Sort.md",
     "Electronic circuits/1) Flip Flop Conversions.md",
-    "Counter.md",
     "Electronic circuits/3) mealy and moore.md",
     "Electronic circuits/2)Preset and Clear.md",
     "DSA/Stack/Stack Using Array.md",
@@ -218,7 +233,6 @@
     "DSA/Stack/Stack using Linked List.md",
     "DSA/Queue/Deque using Array.md",
     "C++/SET(STL).md",
-    "c language/CHAPTER 9 - Structures.md",
     "Untitled",
     "DSA/Graph",
     "DSA/Sorting",
