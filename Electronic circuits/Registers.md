@@ -1,4 +1,4 @@
-![[Pasted image 20260422142033.png]]
+ ![[Pasted image 20260422142033.png]]
 #### Classification of Register
 ![[Pasted image 20260422143553.png]]
 ![[Pasted image 20260422143625.png]]
