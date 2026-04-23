@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Electronic circuits/Counter.md",
+                "file": "Electronic circuits/Semiconductors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Counter"
+              "title": "Semiconductors"
             }
           },
           {
@@ -228,9 +228,10 @@
   "lastOpenFiles": [
     "Electronic circuits/Registers.md",
     "Electronic circuits/Counter.md",
+    "Electronic circuits/Semiconductors.md",
+    "Electronic circuits/3) mealy and moore.md",
     "Electronic circuits/1) Flip Flop Conversions.md",
     "Electronic circuits/2)Preset and Clear.md",
-    "Electronic circuits/Semiconductors.md",
     "Pasted image 20260422163955.png",
     "Pasted image 20260422163938.png",
     "Pasted image 20260422160632.png",
@@ -243,7 +244,6 @@
     "Pasted image 20260422145055.png",
     "DSA/Tree/Binary Search Tree.md",
     "DSA/Sorting/Merge Sort.md",
-    "Electronic circuits/3) mealy and moore.md",
     "DSA/Stack/Stack Using Array.md",
     "DSA/Stack/Stack using Array Structure.md",
     "DSA/Stack/Postfix Evaluation.md",
