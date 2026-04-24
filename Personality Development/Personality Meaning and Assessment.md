@@ -150,6 +150,11 @@ A healthy personality is one where:
 
 ### d) Allport’s Mature Personality
 
+Allport talks about **psychological maturity**.  
+He says a mature person has certain qualities like extension of self, warm relations, emotional security, realistic perception, and self-insight
+
+Allport’s model is about being a **balanced, responsible, emotionally stable adult**.
+
 Allport says psychological maturity includes:
 
 - extension of self
