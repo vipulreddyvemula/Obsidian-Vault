@@ -119,7 +119,7 @@ Example: Crying after poor exam performance.
 
 **6. Sublimation**  
 Channeling emotions into useful or productive activity.  
-Example: Using anger to work out or play sports. This is a **healthy defence mechanism**.
+	Example: Using anger to work out or play sports. This is a **healthy defence mechanism**.
 
 **7. Reaction Formation**  
 Behaving opposite to true feelings.  
