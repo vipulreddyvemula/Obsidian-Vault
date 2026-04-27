@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personality Development/Pschycoanalytic Approach.md",
+                "file": "Personality Development/Personality Meaning and Assessment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pschycoanalytic Approach"
+              "title": "Personality Meaning and Assessment"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personality Development/Cognitive Approach To Personality.md",
+                "file": "Time Managment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cognitive Approach To Personality"
+              "title": "Time Managment"
             }
           },
           {
@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personality Development/Cognitive Approach To Personality.md",
+                "file": "Personality Development/Humanistic and Traits Approach.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cognitive Approach To Personality"
+              "title": "Humanistic and Traits Approach"
             }
           },
           {
@@ -97,22 +97,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personality Development/Pschycoanalytic Approach.md",
-                "mode": "preview",
+                "file": "Time Managment.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pschycoanalytic Approach"
+              "title": "Time Managment"
             }
           },
           {
             "id": "a53b657c8f6912d6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Personality Development/Behavioural Approach.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Behavioural Approach"
             }
           },
           {
@@ -144,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -304,16 +308,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "372677e0359a7efb",
+  "active": "b45e3d962dc799de",
   "lastOpenFiles": [
-    "Time Managment.md",
-    "Personality Development/Pschycoanalytic Approach.md",
-    "Personality Development/Personality Meaning and Assessment.md",
-    "Personality Development/Humanistic and Traits Approach.md",
     "Personality Development/Cognitive Approach To Personality.md",
+    "Personality Development/Humanistic and Traits Approach.md",
+    "Personality Development/Personality Meaning and Assessment.md",
+    "Personality Development/Pschycoanalytic Approach.md",
+    "Personality Development/Behavioural Approach.md",
+    "Time Managment.md",
     "Electronic circuits/Semiconductors.md",
     "Untitled.md",
-    "Personality Development/Behavioural Approach.md",
     "Electronic circuits/Counter.md",
     "Personality Development",
     "Electronic circuits/Registers.md",
