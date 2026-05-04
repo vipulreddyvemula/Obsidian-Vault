@@ -1,4 +1,4 @@
-Daksh, in Java **arrays do not have many “functions” like strings**. Arrays mainly use **`length` property** and common operations using loops. Strings have many built-in methods like `length()`, `charAt()`, `concat()`, `substring()`, etc. Your array notes cover declaration, creation, initialization, `length`, indexing, copying, passing/returning arrays, and 2D arrays; your string notes list many string operations and methods.
+In Java **arrays do not have many “functions” like strings**. Arrays mainly use **`length` property** and common operations using loops. Strings have many built-in methods like `length()`, `charAt()`, `concat()`, `substring()`, etc. Your array notes cover declaration, creation, initialization, `length`, indexing, copying, passing/returning arrays, and 2D arrays; your string notes list many string operations and methods.
 
 # 1. Array Short Notes
 
