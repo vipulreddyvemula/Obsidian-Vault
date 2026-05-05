@@ -66,4 +66,53 @@ O(√n)
 #####  Key Idea
 - Divisors come in pairs → only check till **√n**
 ---
-	
+
+
+## 5)📐 Quadratic Sequences (Second-Order)
+
+## 🧩 Core Concept
+
+A sequence where the common difference increases by a constant amount each time.
+
+- First Differences: Not constant (e.g., $+2, +4, +6 \dots$)
+- Second Differences: Constant (e.g., $+2, +2, +2 \dots$)
+
+## 🔢 The $n$-th Term Formula
+
+The general form is:  
+$$T_n = an^2 + bn + c$$
+
+## How to find $a, b,$ and $c$:
+
+1. Find $a$: $2a = \text{second difference}$
+2. Find $b$: $3a + b = \text{first difference (between term 1 and 2)}$
+3. Find $c$: $a + b + c = \text{the first term}$
+
+---
+
+## ➕ Sum of the Series ($S_n$)
+
+The sum is always cubic. Use the standard summation identities:
+
+|Term|Summation Formula $\sum$|
+|---|---|
+|$n^2$|$\frac{n(n+1)(2n+1)}{6}$|
+|$n$|$\frac{n(n+1)}{2}$|
+|$c$|$cn$|
+
+Full Formula:  
+$$S_n = a\left[\frac{n(n+1)(2n+1)}{6}\right] + b\left[\frac{n(n+1)}{2}\right] + cn$$
+
+---
+
+## 💡 Quick Example
+
+Sequence: $3, 8, 15, 24 \dots$
+
+1. Differences: $5, 7, 9$ (1st diff); 2 (2nd diff)
+2. Solve $a$: $2a = 2 \implies a = 1$
+3. Solve $b$: $3(1) + b = 5 \implies b = 2$
+4. Solve $c$: $1 + 2 + c = 3 \implies c = 0$  
+    Result: $T_n = n^2 + 2n$
+
+---
