@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/SET(STL).md",
+                "file": "C++/VECTORS(STL).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SET(STL)"
+              "title": "VECTORS(STL)"
             }
           },
           {
@@ -337,6 +337,7 @@
   },
   "active": "c4b9899bd9753718",
   "lastOpenFiles": [
+    "C++/SET(STL).md",
     "C++/VECTORS(STL).md",
     "Java/Array and Strings.md",
     "Java/Exception Handling.md",
@@ -374,7 +375,6 @@
     "DSA/Stack/Infix to Postfix.md",
     "DSA/Sorting/Insertion sort.md",
     "DSA/Graph/DFS.md",
-    "DSA/Tree/Heap.md",
     "Untitled",
     "DSA/Graph",
     "DSA/Sorting",
