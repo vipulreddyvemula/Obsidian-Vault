@@ -116,3 +116,7 @@ Sequence: $3, 8, 15, 24 \dots$
     Result: $T_n = n^2 + 2n$
 
 ---
+
+
+Yet another array problem
+eucledian algorithm
