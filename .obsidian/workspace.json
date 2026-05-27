@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Sorting/Merge Sort.md",
+                "file": "python free code camp from middle/List Functions , Tuples, Def Functions ,Return functions , If else statements,Calculator,Dictionaries--{Part - 1}.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Merge Sort"
+              "title": "List Functions , Tuples, Def Functions ,Return functions , If else statements,Calculator,Dictionaries--{Part - 1}"
             }
           },
           {
@@ -338,6 +338,10 @@
   },
   "active": "c4b9899bd9753718",
   "lastOpenFiles": [
+    "python free code camp from middle/{For Loops},(Exponent functions),(Comments),{Try or Except blocks}.md",
+    "python free code camp from middle/List Functions , Tuples, Def Functions ,Return functions , If else statements,Calculator,Dictionaries--{Part - 1}.md",
+    "python free code camp from middle/GUESS GAME,BULDING A TRANSLATOR.md",
+    "DSA/Sorting/Merge Sort.md",
     "DSA/Sorting/Bubble sort.md",
     "C++/MAP(STL) AND PAIR(STL).md",
     "C++/SET(STL).md",
@@ -372,10 +376,6 @@
     "png files/Pasted image 20260422150117.png",
     "png files/Pasted image 20260422145055.png",
     "DSA/Tree/Binary Search Tree.md",
-    "DSA/Sorting/Merge Sort.md",
-    "DSA/Stack/Stack Using Array.md",
-    "DSA/Stack/Stack using Array Structure.md",
-    "DSA/Stack/Postfix Evaluation.md",
     "Untitled",
     "DSA/Graph",
     "DSA/Sorting",
