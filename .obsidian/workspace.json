@@ -297,13 +297,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Things i learn during solving/Math.md",
+                "file": "python free code camp from middle/List Functions , Tuples, Def Functions ,Return functions , If else statements,Calculator,Dictionaries--{Part - 1}.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Math"
+              "title": "Outline of List Functions , Tuples, Def Functions ,Return functions , If else statements,Calculator,Dictionaries--{Part - 1}"
             }
           },
           {
@@ -321,8 +321,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
