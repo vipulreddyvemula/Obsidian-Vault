@@ -120,3 +120,29 @@ Sequence: $3, 8, 15, 24 \dots$
 
 Yet another array problem
 eucledian algorithm
+
+Sieve of Eratosthenes
+```cpp
+vector<int> sieve(int n) {
+    vector<bool> isPrime(n + 1, true);
+    vector<int> primes;
+
+    isPrime[0] = isPrime[1] = false;
+
+    for (int i = 2; i * i <= n; i++) {
+        if (isPrime[i]) {
+            for (int j = i * i; j <= n; j += i) {
+                isPrime[j] = false;
+            }
+        }
+    }
+
+    for (int i = 2; i <= n; i++) {
+        if (isPrime[i]) {
+            primes.push_back(i);
+        }
+    }
+
+    return primes;
+}
+```

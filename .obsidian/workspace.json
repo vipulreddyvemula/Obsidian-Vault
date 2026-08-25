@@ -198,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -321,7 +321,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/MAP(STL) AND PAIR(STL).md",
+                "file": "Electronic circuits/Registers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -359,18 +359,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "a4ea77cba18873de",
+  "active": "1dbc49d49cbab00c",
   "lastOpenFiles": [
-    "python free code camp from middle/Untitled 1.md",
-    "C++/VECTORS(STL).md",
+    "DSA/Things i learn during solving/Math.md",
     "C++/MAP(STL) AND PAIR(STL).md",
+    "C++/SET(STL).md",
+    "C++/VECTORS(STL).md",
+    "C++/Stack and Queue.md",
+    "C++/STRINGS(STL).md",
+    "C++/Linked Lists.md",
+    "python free code camp from middle/Untitled 1.md",
     "DSA/Sorting/Quick Sort.md",
     "python free code camp from middle/List Functions , Tuples, Def Functions ,Return functions , If else statements,Calculator,Dictionaries--{Part - 1}.md",
     "python free code camp from middle/{For Loops},(Exponent functions),(Comments),{Try or Except blocks}.md",
     "python free code camp from middle/GUESS GAME,BULDING A TRANSLATOR.md",
-    "C++/SET(STL).md",
     "DSA/Stack/Stack using Array Structure.md",
-    "DSA/Things i learn during solving/Math.md",
     "DSA/Sorting/Selection Sort.md",
     "DSA/Sorting/Merge Sort.md",
     "DSA/Sorting/Bubble sort.md",
@@ -385,10 +388,7 @@
     "Personality Development/Pschycoanalytic Approach.md",
     "Personality Development/Behavioural Approach.md",
     "Electronic circuits/Semiconductors.md",
-    "Untitled.md",
-    "Electronic circuits/Counter.md",
     "Personality Development",
-    "Electronic circuits/Registers.md",
     "png files/Pasted image 20260422163955.png",
     "png files/Pasted image 20260422163938.png",
     "png files/Pasted image 20260422160632.png",
