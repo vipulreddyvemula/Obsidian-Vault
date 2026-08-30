@@ -217,12 +217,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Sorting/Insertion sort.md",
+                "file": "DSA/Sorting/Merge Sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Insertion sort"
+              "title": "Merge Sort"
             }
           }
         ],
@@ -285,8 +285,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ca3a0d0d98923bad",
@@ -391,6 +390,8 @@
   },
   "active": "1ae87c82145eeebe",
   "lastOpenFiles": [
+    "DSA/Sorting/Bubble sort.md",
+    "DSA/Sorting/Insertion sort.md",
     "Python/misc after date time.md",
     "Python/Date-Time Module.md",
     "Electronic circuits/Registers.md",
@@ -410,7 +411,6 @@
     "DSA/Stack/Stack using Array Structure.md",
     "DSA/Sorting/Selection Sort.md",
     "DSA/Sorting/Merge Sort.md",
-    "DSA/Sorting/Bubble sort.md",
     "Java/Array and Strings.md",
     "Java/Exception Handling.md",
     "PHP/PHP.md",
@@ -418,7 +418,6 @@
     "Personality Development/Time Managment.md",
     "Personality Development/Cognitive Approach To Personality.md",
     "Personality Development/Humanistic and Traits Approach.md",
-    "Personality Development/Personality Meaning and Assessment.md",
     "Personality Development",
     "png files/Pasted image 20260422163955.png",
     "png files/Pasted image 20260422163938.png",
