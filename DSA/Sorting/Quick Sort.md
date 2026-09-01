@@ -1,4 +1,4 @@
- ```c
+```c
 #include<stdio.h>
 void swap(int *a,int *b){
     int temp=*a;
@@ -31,6 +31,9 @@ int main(){
 
 }
 ```
+
+#
+
 
 #  Quick Sort – Simple Explanation + Dry Run
 
