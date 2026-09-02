@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Sorting/Selection Sort.md",
+                "file": "DSA/Sorting/Merge Sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Selection Sort"
+              "title": "Merge Sort"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "bb4f09b84ecef4e9",
   "lastOpenFiles": [
+    "DSA/Sorting/Selection Sort.md",
     "DSA/Sorting/Bubble sort.md",
     "DSA/Sorting/Insertion sort.md",
     "Personality Development/Personality Meaning and Assessment.md",
@@ -210,7 +211,6 @@
     "python free code camp from middle/{For Loops},(Exponent functions),(Comments),{Try or Except blocks}.md",
     "python free code camp from middle/GUESS GAME,BULDING A TRANSLATOR.md",
     "DSA/Stack/Stack using Array Structure.md",
-    "DSA/Sorting/Selection Sort.md",
     "Java/Array and Strings.md",
     "PHP",
     "Personality Development",
