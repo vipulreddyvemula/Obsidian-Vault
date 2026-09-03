@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MODULE 2.md",
+                "file": "python free code camp from middle/MODULE 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "MODULE 2"
             }
+          },
+          {
+            "id": "5c018fa170467a4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "python free code camp from middle/MODULE 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MODULE 3"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,10 +212,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "22889283cd7fb8e9",
+  "active": "a4ea77cba18873de",
   "lastOpenFiles": [
+    "python free code camp from middle/MODULE 2.md",
+    "python free code camp from middle/MODULE 3.md",
     "python free code camp from middle/Module 1.md",
-    "MODULE 2.md",
     "python free code camp from middle/GUESS GAME,BULDING A TRANSLATOR.md",
     "DSA/Sorting/Selection Sort.md",
     "DSA/Sorting/Quick Sort.md",
@@ -226,7 +241,6 @@
     "C++/Linked Lists.md",
     "python free code camp from middle/List Functions , Tuples, Def Functions ,Return functions , If else statements,Calculator,Dictionaries--{Part - 1}.md",
     "python free code camp from middle/{For Loops},(Exponent functions),(Comments),{Try or Except blocks}.md",
-    "DSA/Stack/Stack using Array Structure.md",
     "PHP",
     "Personality Development",
     "png files/Pasted image 20260422163955.png",
