@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python free code camp from middle/MODULE 3.md",
+                "file": "C++/MAP(STL) AND PAIR(STL).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MODULE 3"
+              "title": "MAP(STL) AND PAIR(STL)"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ca3a0d0d98923bad",
@@ -183,12 +182,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "151134ba1f8d58df",
+  "active": "ab8348935c19b2ca",
   "lastOpenFiles": [
+    "python free code camp from middle/MODULE 3.md",
     "python free code camp from middle/MODULE 2.md",
     "python free code camp from middle/MODULE 4.md",
     "python free code camp from middle/Module 1.md",
-    "python free code camp from middle/MODULE 3.md",
     "python free code camp from middle/List Functions , Tuples, Def Functions ,Return functions , If else statements,Calculator,Dictionaries--{Part - 1}.md",
     "python free code camp from middle/GUESS GAME,BULDING A TRANSLATOR.md",
     "DSA/Sorting/Selection Sort.md",
