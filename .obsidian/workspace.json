@@ -95,12 +95,14 @@
             "id": "f9db6cf2494887d1",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.14.5"
+                "file": "DSA/Sorting/Quick Sort.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.14.5"
+              "icon": "lucide-file",
+              "title": "Quick Sort"
             }
           }
         ],
