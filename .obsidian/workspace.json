@@ -90,9 +90,21 @@
               "icon": "lucide-file",
               "title": "PDF 4 Statistical Language Models"
             }
+          },
+          {
+            "id": "f9db6cf2494887d1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.14.5"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -253,7 +265,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "99a65bfe3b8b97fe",
+  "active": "f9db6cf2494887d1",
   "lastOpenFiles": [
     "Cognitive Science/PDF 3  Natural Language Processing (NLP).md",
     "Cognitive Science/PDF 2 The Linguistic Approach.md",
