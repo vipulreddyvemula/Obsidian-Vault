@@ -26,23 +26,23 @@ L[start:end:step]
 
 # ⭐⭐⭐ MASTER TABLE — List Methods
 
-|Method|Syntax|Meaning|Example|Output|
-|---|---|---|---|---|
-|`append()`|`L.append(x)`|Add **ONE item** at end|`L=[1,2]; L.append(3)`|`[1,2,3]`|
-|`clear()`|`L.clear()`|Empty list|`L=[1,2]; L.clear()`|`[]`|
-|`copy()`|`L.copy()`|Create separate copy|`L=[1,2]; M=L.copy()`|`M → [1,2]`|
-|`count()`|`L.count(x)`|Count occurrences of `x`|`L=[1,2,2,3]; L.count(2)`|`2`|
-|`extend()`|`L.extend(iterable)`|Add iterable's elements|`L=[1,2]; L.extend([3,4])`|`[1,2,3,4]`|
-|`index()`|`L.index(x)`|First index of `x`|`L=[10,20,30]; L.index(20)`|`1`|
-|`insert()`|`L.insert(i,x)`|Insert `x` at index `i`|`L=[1,3]; L.insert(1,2)`|`[1,2,3]`|
-|`pop(i)`|`L.pop(i)`|Remove item at index `i`|`L=[1,2,3]; L.pop(1)`|`[1,3]`|
-|`pop()`|`L.pop()`|Remove **last** item|`L=[1,2,3]; L.pop()`|`[1,2]`|
-|`remove()`|`L.remove(x)`|Remove **first occurrence of value**|`L=[1,2,2,3]; L.remove(2)`|`[1,2,3]`|
-|`reverse()`|`L.reverse()`|Flip current order|`L=[1,2,3]; L.reverse()`|`[3,2,1]`|
-|`sort()`|`L.sort()`|Sort ascending|`L=[3,1,2]; L.sort()`|`[1,2,3]`|
-|`sort(reverse=True)`|`L.sort(reverse=True)`|Sort descending|`L=[3,1,2]; L.sort(reverse=True)`|`[3,2,1]`|
-|`sort(key=str.lower)`|`L.sort(key=str.lower)`|Case-insensitive sort|`L=["banana","Orange","Kiwi"]`|`['banana','Kiwi','Orange']`|
-|`sort(key=str.lower, reverse=True)`|`L.sort(key=str.lower, reverse=True)`|Case-insensitive descending|`L=["banana","Orange","Kiwi"]`|`['Orange','Kiwi','banana']`|
+| Method                              | Syntax                                | Meaning                              | Example                           | Output                       |
+| ----------------------------------- | ------------------------------------- | ------------------------------------ | --------------------------------- | ---------------------------- |
+| `append()`                          | `L.append(x)`                         | Add **ONE item** at end              | `L=[1,2]; L.append(3)`            | `[1,2,3]`                    |
+| `clear()`                           | `L.clear()`                           | Empty list                           | `L=[1,2]; L.clear()`              | `[]`                         |
+| `copy()`                            | `L.copy()`                            | Create separate copy                 | `L=[1,2]; M=L.copy()`             | `M → [1,2]`                  |
+| `count()`                           | `L.count(x)`                          | Count occurrences of `x`             | `L=[1,2,2,3]; L.count(2)`         | `2`                          |
+| `extend()`                          | `L.extend(iterable)`                  | Add iterable's elements              | `L=[1,2]; L.extend([3,4])`        | `[1,2,3,4]`                  |
+| `index()`                           | `L.index(x)`                          | First index of `x`                   | `L=[10,20,30]; L.index(20)`       | `1`                          |
+| `insert()`                          | `L.insert(i,x)`                       | Insert `x` at index `i`              | `L=[1,3]; L.insert(1,2)`          | `[1,2,3]`                    |
+| `pop(i)`                            | `L.pop(i)`                            | Remove item at index `i`             | `L=[1,2,3]; L.pop(1)`             | `[1,3]`                      |
+| `pop()`                             | `L.pop()`                             | Remove **last** item                 | `L=[1,2,3]; L.pop()`              | `[1,2]`                      |
+| `remove()`                          | `L.remove(x)`                         | Remove **first occurrence of value** | `L=[1,2,2,3]; L.remove(2)`        | `[1,2,3]`                    |
+| `reverse()`                         | `L.reverse()`                         | Flip current order                   | `L=[1,2,3]; L.reverse()`          | `[3,2,1]`                    |
+| `sort()`                            | `L.sort()`                            | Sort ascending                       | `L=[3,1,2]; L.sort()`             | `[1,2,3]`                    |
+| `sort(reverse=True)`                | `L.sort(reverse=True)`                | Sort descending                      | `L=[3,1,2]; L.sort(reverse=True)` | `[3,2,1]`                    |
+| `sort(key=str.lower)`               | `L.sort(key=str.lower)`               | Case-insensitive sort                | `L=["banana","Orange","Kiwi"]`    | `['banana','Kiwi','Orange']` |
+| `sort(key=str.lower, reverse=True)` | `L.sort(key=str.lower, reverse=True)` | Case-insensitive descending          | `L=["banana","Orange","Kiwi"]`    | `['Orange','Kiwi','banana']` |
 
 ---
 
