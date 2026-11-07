@@ -192,12 +192,14 @@
             "id": "2fbe420d270f8fed",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.15.0"
+                "file": "congitive science/13 - Statistical Language Models.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.15.0"
+              "icon": "lucide-file",
+              "title": "13 - Statistical Language Models"
             }
           }
         ],
