@@ -5,7 +5,15 @@ updated: 2026-11-10
 
 # Cognitive Science — Short Notes
 
-Notes condensed from the explanations completed in **Organize PDF Topics**.
+Short revision notes from the explanations completed in **Organize PDF Topics**. Each subject gives **a brief definition, a small example, and the important distinction/formula**.
+
+> [!tip] Start here
+> Open **[[01 - Revise First]]** for recall cues and formulas. Use the subject notes for concise definitions and examples, then test yourself with the questions or drills.
+
+## Subject notes
+- [[06-08 - Artificial Neural Networks]] — neurons, activations, forward/backprop, CNNs and PYQs.
+- [[11-12 - Linguistics and NLP]] — definitions, ambiguity, pipeline, representations, metrics and acquisition.
+- [[11-12 - POS and Parsing Practice]] — Penn tag lookup, both Q8 answers, Q9 readings and Q10 tree.
 
 - [[13 - Statistical Language Models]] — chain rule, N-grams, MLE, smoothing and perplexity.
 - [[16 - Hidden Markov Models]] — Viterbi, Forward, weather example and 2024 Q11.
@@ -18,4 +26,7 @@ Notes condensed from the explanations completed in **Organize PDF Topics**.
 - Write the seven Hanoi moves and explain their GPS subgoals.
 - Compare well-defined/ill-defined problems and algorithms/heuristics.
 
-These notes cover PDFs **10, 13, 14 and 16** from the chat so far.
+These notes now cover PDFs **06–08, 10–14 and 16** from the chat.
+
+## Other course PDFs
+The source chat has not yet supplied full lessons for **01–05 (Foundations), 09 (Memory) and 15 (Reasoning)**. Some memory/reasoning PYQ points appear within other notes; those are not full unit summaries.

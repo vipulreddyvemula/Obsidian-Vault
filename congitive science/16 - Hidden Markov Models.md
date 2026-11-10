@@ -16,14 +16,14 @@ updated: 2026-11-10
 
 
 ## 1. Core idea and components
-An **HMM** infers hidden states from observable evidence over time: weather is hidden; umbrella use is observed. A Markov chain observes the states directly.
+A **Hidden Markov Model (HMM)** models a sequence of unobserved states that generate observable evidence. Example: infer weather over several days from umbrella use. A **state** is the system’s condition at a time; an **observation** is evidence we can measure. A **Markov chain** models transitions between directly observed states.
 
 $$
 \lambda=(A,B,\pi)
 $$
-- $\pi_j=P(S_1=j)$: initial-state probability.
-- $A_{ij}=P(S_t=j\mid S_{t-1}=i)$: **transition**, hidden state → hidden state.
-- $B_j(o)=P(O_t=o\mid S_t=j)$: **emission**, hidden state → observation.
+- **Initial probability** $\pi_j=P(S_1=j)$: chance of starting in state j; e.g. Rainy=0.5.
+- **Transition probability** $A_{ij}=P(S_t=j\mid S_{t-1}=i)$: chance of moving from state i to j; e.g. Rainy→Sunny=0.3.
+- **Emission probability** $B_j(o)=P(O_t=o\mid S_t=j)$: chance of an observation in state j; e.g. Umbrella given Rainy=0.9.
 - **First-order Markov assumption:** next state depends only on the current state.
 - **Emission assumption:** each observation depends only on its current hidden state.
 
@@ -31,31 +31,33 @@ $$
 
 | Problem | What to find | Algorithm |
 | --- | --- | --- |
-| Evaluation | Total observation probability $P(O\mid\lambda)$ | Forward: **sum** paths |
-| Decoding | Most probable hidden-state sequence | Viterbi: **max** path |
-| Learning | Estimate $A,B,\pi$ | Baum–Welch: EM |
+| Evaluation | How likely are the observations, considering all hidden paths? $P(O\mid\lambda)$ | **Forward:** combine probabilities by summation |
+| Decoding | Which complete hidden path best explains observations? | **Viterbi:** keep the best partial path per state, then backtrack |
+| Learning | What parameters best fit the observed sequences? | **Baum–Welch:** expectation-maximization to estimate $A,B,\pi$ |
 
-**Baum–Welch:** initialize parameters → estimate hidden-state/transition probabilities given observations → update parameters → repeat.
+**Baum–Welch:** initialize → estimate expected hidden-state/transition counts → update parameters → repeat. It learns the model; it is not the algorithm for choosing the best path.
 
 ## 3. Essential formulas
+**Notation:** Q = hidden-state path; O = observation sequence; T = number of observations. **Joint probability** $P(Q,O)$ means that exact path and those observations occurring together.
+
 **One path’s joint probability:**
 $$
 P(Q,O\mid\lambda)=\pi_{q_1}B_{q_1}(o_1)\prod_{t=2}^{T}A_{q_{t-1},q_t}B_{q_t}(o_t)
 $$
 Initial × first emission × each subsequent transition and emission.
 
-**Viterbi initialization and recurrence:**
+**Viterbi score** $\delta_t(j)$ = probability of the best partial path ending in j, together with observations up to time t. Initialization handles the first observation; recurrence extends a path by one step:
 $$
 \delta_1(j)=\pi_jB_j(o_1),\qquad
 \delta_t(j)=B_j(o_t)\max_i[\delta_{t-1}(i)A_{ij}]
 $$
 Store the best predecessor for **each state**; select the final maximum and **backtrack**. Include END transitions if specified. Complexity: $O(TK^2)$ for K states, versus $K^T$ brute-force paths.
 
-**Forward:** same initialization, but replace max with sum:
+**Forward score** $\alpha_t(j)$ = joint probability of observations up to t and ending in j, summing over all earlier paths. Same initialization, but replace max with sum:
 $$
 \alpha_t(j)=B_j(o_t)\sum_i\alpha_{t-1}(i)A_{ij},\qquad P(O)=\sum_j\alpha_T(j)
 $$
-**Posterior:** $P(Q\mid O)=P(Q,O)/P(O)$. Joint probability and posterior are different.
+**Posterior** $P(Q\mid O)=P(Q,O)/P(O)$ = probability of the path **given that the observations occurred**. Example: divide the RRS joint score by the total UUN observation probability.
 
 ## 4. Faculty example — Rainy/Sunny
 State order R, S; $\pi=[0.5,0.5]$. Observations: **U, U, No umbrella**.
@@ -76,7 +78,7 @@ Each transition row and each emission row sums to 1 separately.
 
 Example cell: $\delta_2(S)=0.2\max(0.45\times0.3,0.10\times0.7)=0.027$.
 
-Backtrack: **R → R → S**. Joint probability:
+**Backtracking** means following the saved best predecessors from the final state to the start. Final Sunny came from Rainy, which came from Rainy → **R → R → S**. Joint probability:
 $0.5\times0.9\times0.7\times0.9\times0.3\times0.8=0.06804$.
 
 **Forward table:**

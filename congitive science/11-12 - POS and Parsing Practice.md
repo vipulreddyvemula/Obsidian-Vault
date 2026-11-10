@@ -52,7 +52,7 @@ located/VBN at/IN Pala/NNP ./.
 - **“She likes swimming.”** → likes becomes **verb/VBZ**.
 - **“The children are swimming.”** → swimming now belongs to a progressive verb phrase, instead of naming an activity nominally.
 
-**Nuance:** Penn Treebank can label both gerund and progressive uses **VBG**; the second example changes syntactic function, not necessarily its Penn tag. Explain the distinction if using it.
+**Category vs function:** category is the type of word (noun/verb); function is its job in the sentence (subject/object/modifier). In the example, swimming names an activity versus forms a progressive verb phrase. Penn Treebank may tag both **VBG**, so explain that this changes function, not necessarily the Penn tag.
 
 ## 4. 2024 Q9 — “Spring leaves spring”
 
@@ -66,6 +66,10 @@ located/VBN at/IN Pala/NNP ./.
 ## 5. 2024 Q10 — full parse tree
 Sentence: **The big yellow dog sat under the house.**
 
+**Syntactic / phrase-structure rules** describe how categories combine: `S → NP VP` makes a sentence from a noun phrase and a verb phrase.
+
+**Lexical rules** connect categories to actual words: `DET → the`, `NOUN → dog`, `VERB → sat`. Here “lexical” means word-level; it is not a type of ambiguity.
+
 **Use the supplied rules:**
 ```text
 S   → NP VP
@@ -74,7 +78,16 @@ NOM → ADJ NOM | NOUN
 VP  → VP PP | VERB NP | VERB
 PP  → PREP NP
 ```
-**Build:** subject NP = The big yellow dog; VP = sat + PP; PP = under + the house.
+| Symbol / term | Definition | This sentence |
+| --- | --- | --- |
+| S | Complete sentence | The big yellow dog sat under the house |
+| NP | Noun phrase: noun-centered group | The big yellow dog |
+| NOM | Nominal part of an NP, excluding its determiner here | big yellow dog |
+| VP | Verb phrase: verb with its complements/modifiers | sat under the house |
+| PP | Prepositional phrase: preposition + noun phrase | under the house |
+| DET / ADJ | Determiner / adjective | The / big, yellow |
+
+**Parsing:** analyze a sentence using grammar rules to identify its structure. A **parse tree** displays that structure hierarchically. **Build:** subject NP; VP = sat + PP; PP = under + the house.
 
 ```text
 S

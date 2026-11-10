@@ -14,12 +14,24 @@ updated: 2026-11-10
 > **Single perceptron:** linear boundary; OR works, XOR does not.
 > **Must practise:** perceptron PYQ, 2–2–1 forward pass, six-weight backprop table.
 
-## 1. Neuron, bias and architecture
-- Traditional programming: data + written rules → answers. ML training: data + answers → learned model.
-- Inputs = evidence; weights = influence; bias = baseline; activation = output transformation.
-- **Bias shifts the boundary**, independently of weight orientation: $w^Tx+b=0$. A raw threshold $\theta$ is equivalent to bias $b=-\theta$.
-- **Input → hidden → output layers.** Hidden neurons learn useful representations through weight changes. A 28×28 grayscale image has **784 inputs**.
-- Vectorized layer, using faculty notation: $Z=W^TX+b$; apply $f$ element by element. Check dimensions.
+## 1. Core terms — meaning + example
+
+| Term | Short definition | Example / distinction |
+| --- | --- | --- |
+| Artificial neuron | Computational unit that combines weighted inputs, adds bias and applies an activation | Weather clues → umbrella decision |
+| Weight | Learnable strength and direction of an input’s influence | Rain weight +5 strongly increases the score |
+| Bias | Learnable constant added to the weighted sum | Changes the score even when all inputs are zero |
+| Activation function | Function converting a neuron’s weighted sum into its output | ReLU turns −2 into 0 |
+| Perceptron | A basic linear binary classifier using a weighted sum and threshold | Can learn OR, but not XOR with one boundary |
+| Decision boundary | Set of inputs where the predicted class changes | $w^Tx+b=0$ is a line in 2D |
+| Linear separability | Classes can be separated by one straight line/hyperplane | OR is separable; XOR is not |
+
+**Bias shifts the boundary** while fixed weights keep its orientation. Raw threshold $\theta$ corresponds to $b=-\theta$.
+
+**Layers:** input receives data → hidden transforms it into useful features → output gives a prediction. A **2–2–1 network** has 2 inputs, 2 hidden neurons and 1 output.
+
+**Traditional programming:** rules + data → answers. **ML training:** examples + targets → learned parameters.
+Vectorized layer, using faculty notation: $Z=W^TX+b$, then apply activation to each element.
 
 ## 2. Activation functions — memorize this table
 
@@ -31,7 +43,7 @@ updated: 2026-11-10
 | ReLU | $\max(0,z)$ | [0,∞); suppress negatives |
 | Leaky ReLU | $z$ if nonnegative; $0.01z$ otherwise | Small negative-side slope |
 
-**Why nonlinear?** Stacking only affine layers still gives one affine transformation.
+**Why nonlinear?** Without nonlinear activations, multiple layers collapse to one weighted-sum transformation; they cannot create the nonlinear separation needed for XOR.
 
 ## 3. Small faculty numericals
 
@@ -52,7 +64,17 @@ Input $x=(1,0.5)$; hidden activation ReLU; output sigmoid.
 3. $z_o=0.7h_1-0.4h_2-0.1=0.46$.
 4. $\hat y=\sigma(0.46)=\mathbf{0.6130}$ → class 1 at threshold 0.5.
 
-## 5. Learning — essential formulas
+## 5. Learning — definitions + essential formulas
+
+| Term | What it means | Example / use |
+| --- | --- | --- |
+| Forward propagation | Compute predictions by passing inputs through the layers | Inputs → hidden outputs → $\hat y$ |
+| Loss | Number measuring prediction error against the target | Prediction 0.7988, target 1 → loss ≈ 0.0202 |
+| Gradient | Rate at which loss changes with a parameter | Positive weight gradient → decrease that weight |
+| Backpropagation | Use the chain rule to calculate parameter gradients backward through the network | Output error → hidden-layer error |
+| Gradient descent | Update parameters opposite their gradients to reduce loss | $w'=w-\eta\,\partial L/\partial w$ |
+| Learning rate $\eta$ | Size of the update step | $\eta=0.1$ scales the gradient by 0.1 |
+
 For the faculty’s **sigmoid + half squared-error** network:
 $$
 L=\tfrac12(y-\hat y)^2,\qquad \sigma'(z)=\sigma(z)(1-\sigma(z))
@@ -67,6 +89,8 @@ $$
 $$
 w'=w-\eta\frac{\partial L}{\partial w},\qquad b'=b-\eta\delta
 $$
+**Notation:** $y$ = target, $\hat y$ = prediction, $L$ = loss, $\delta$ = loss derivative with respect to a neuron’s pre-activation sum. Hidden gradients use the connecting output weight.
+
 - **Positive gradient → decrease weight; negative → increase.** Large learning rates can overshoot.
 - **Epoch:** one full dataset pass; not necessarily one update.
 - Random initialization breaks symmetry between otherwise identical hidden neurons.
@@ -102,7 +126,12 @@ Bias updates, if requested: **0.10036, 0.20044, 0.30323**. The faculty’s main 
 ## 7. CNNs — why images need them
 Fully connected image networks have many parameters, inefficient spatial processing and overfitting risk. 100×100 grayscale pixels → 100 neurons needs **1,000,000 weights**, excluding biases.
 
-**CNN:** local connectivity + shared filters + learned features + pooling. A single-channel 3×3 filter has **9 weights**, reused across positions. Hierarchy: pixels → edges → shapes → objects.
+**CNN (Convolutional Neural Network):** a network suited to images that learns patterns in local neighborhoods.
+- **Local connectivity:** examine a small pixel region rather than every pixel.
+- **Weight sharing:** reuse one filter across positions; a single-channel 3×3 filter has 9 weights.
+- **Pooling:** summarize nearby feature values.
+- **Overfitting:** fitting training details so closely that unseen-data performance suffers.
+Feature hierarchy: pixels → edges → shapes → objects.
 
 Architecture cues: **CNN = spatial/images; RNN = sequences; Transformer = attention; GAN = generation; reinforcement learning = rewards.**
 

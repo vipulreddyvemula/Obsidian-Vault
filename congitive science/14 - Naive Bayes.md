@@ -19,15 +19,19 @@ updated: 2026-11-10
 ## 1. Core idea
 A **classifier** assigns an input to a predefined category using features, e.g. email words → spam/not spam.
 
-**Naive Bayes:** probabilistic classification using Bayes’ theorem and **conditional independence of features given the class**.
+**Naive Bayes:** a classifier applying Bayes’ theorem while treating features as **conditionally independent given the class**. For spam classification, it multiplies separate word likelihoods rather than estimating every complete word combination.
+
+**Feature** = input clue, e.g. the word “free”; **class** = output category, e.g. spam. The independence assumption ignores relationships such as “not good”.
 
 $$
 P(C\mid X)=\frac{P(X\mid C)P(C)}{P(X)}
 $$
-- **Prior** $P(C)$: belief before evidence.
-- **Likelihood** $P(X\mid C)$: probability of evidence given class.
-- **Evidence** $P(X)$: overall probability of evidence.
-- **Posterior** $P(C\mid X)$: updated belief.
+| Term | Definition | Spam example |
+| --- | --- | --- |
+| Prior $P(C)$ | Class probability before observing this input | Proportion of training emails labeled spam |
+| Likelihood $P(X\mid C)$ | Probability of the observed features if the class is known | Likelihood of “free” in spam |
+| Evidence $P(X)$ | Overall probability of the observed features across classes | Overall likelihood of observing “free” |
+| Posterior $P(C\mid X)$ | Updated class probability after observing features | Probability of spam given “free” |
 
 $P(C\mid X)$ and $P(X\mid C)$ generally differ.
 
@@ -40,19 +44,21 @@ $$
 P(C)=\frac{\text{documents in C}}{\text{all documents}},\qquad
 P(w\mid C)=\frac{C(w,C)}{N_C}
 $$
-$N_C$ = total **word tokens** in class C; $|V|$ = **distinct words** across the training vocabulary.
+**Document** = one training review/message. **Token** = one word occurrence; “good good movie” has 3 tokens. **Vocabulary** = distinct known words; that text has 2 unique words.
 
-**Laplace smoothing:**
+$N_C$ = total word tokens in class C; $C(w,C)$ = occurrences of word w in C; $|V|$ = distinct words across the full training vocabulary. The multinomial method uses word occurrence counts.
+
+**Laplace/add-one smoothing:** give each vocabulary word one extra count in every class; add $|V|$ to the class total to keep probabilities normalized:
 $$
 P(w\mid C)=\frac{C(w,C)+1}{N_C+|V|}
 $$
-**Classification score and MAP decision:**
+**Score:** prior × word likelihoods, before normalization. **MAP (Maximum A Posteriori):** choose the class with the largest posterior; the largest score gives the same class:
 $$
 Score(C)=P(C)\prod_iP(w_i\mid C),\qquad \hat C=\arg\max_C Score(C)
 $$
 Count repeated test words repeatedly. The common evidence denominator is unnecessary for choosing a class.
 
-**Actual posterior requires normalization:**
+**Normalization:** divide each score by the sum of all class scores so the resulting posterior probabilities add to 1:
 $$
 P(C\mid X)=\frac{Score(C)}{\sum_{C'}Score(C')}
 $$

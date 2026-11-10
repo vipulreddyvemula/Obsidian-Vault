@@ -19,18 +19,20 @@ lecture_pdf: 13
 > **Core idea:** Learn word patterns from text to predict the next word and assign probabilities to sentences.
 
 ## 1. Language model
-- Estimates $P(W)=P(w_1,\ldots,w_n)$ for a word sequence.
+- **Statistical language model:** assigns probabilities to word sequences and predicts words from their context. Example: “I love NLP” is usually more likely than “NLP love I” in English.
+- **Corpus:** collection of training text. **Token:** one occurrence of a word/unit. **Vocabulary:** set of distinct known words.
+- Estimates $P(W)=P(w_1,\ldots,w_n)$ for a sequence W.
 - Applications: keyboard prediction, speech recognition, spell correction and translation.
 - **Notation:** $P(A\mid B)$ means “probability of A given B”.
 
 ## 2. Chain rule vs. Markov assumption
-**Chain rule — exact; uses the full history:**
+**Chain rule:** exactly expresses a sequence’s joint probability as a product of conditional probabilities, each using all earlier words:
 $$
 P(w_1,\ldots,w_n)=\prod_{i=1}^{n}P(w_i\mid w_1,\ldots,w_{i-1})
 $$
 Example: $P(I,love,NLP)=0.2\times0.4\times0.5=0.04$ (illustrative probabilities).
 
-**Markov assumption — approximation; uses only recent words:**
+**Markov assumption:** approximate the next-word probability using only a fixed number of recent words instead of the whole history:
 $$
 P(w_i\mid w_1,\ldots,w_{i-1})\approx P(w_i\mid w_{i-k},\ldots,w_{i-1})
 $$
@@ -39,11 +41,11 @@ Remember **k previous words**, reducing the data needed to estimate probabilitie
 ## 3. N-grams
 An **N-gram** is a sequence of N consecutive words. An N-gram model uses **N−1 previous words** as context.
 
-| Model | Context | Next-word probability |
+| Model | Definition / example | Next-word probability |
 | --- | --- | --- |
-| Unigram | None | $P(w_i)$ |
-| Bigram | Previous 1 word | $P(w_i\mid w_{i-1})$ |
-| Trigram | Previous 2 words | $P(w_i\mid w_{i-2},w_{i-1})$ |
+| Unigram | One-word units; ignores previous words: `I`, `love`, `NLP` | $P(w_i)$ |
+| Bigram | Two-word units; conditions on 1 previous word: `I love`, `love NLP` | $P(w_i\mid w_{i-1})$ |
+| Trigram | Three-word units; conditions on 2 previous words: `I love NLP` | $P(w_i\mid w_{i-2},w_{i-1})$ |
 
 For “I love NLP”, a bigram model uses:
 $$
@@ -51,7 +53,7 @@ P(I,love,NLP)\approx P(I)P(love\mid I)P(NLP\mid love)
 $$
 
 ## 4. Maximum Likelihood Estimation (MLE)
-Estimate probabilities using observed counts:
+**MLE:** estimates model probabilities by maximizing the probability of the observed training data. For a bigram, this becomes the observed relative frequency:
 $$
 P(b\mid a)=\frac{C(a,b)}{C(a)}
 $$
@@ -80,7 +82,7 @@ A model with a START token uses $P(I\mid\text{START})$ instead; follow the conve
 - **Long-distance dependencies:** A short context may miss distant relationships, e.g. **keys … are**, even when “hallway” immediately precedes “are”.
 
 ## 6. Laplace / add-one smoothing
-Add 1 to each possible next-word count:
+**Laplace smoothing:** add one to every possible next-word count, giving unseen combinations of known words a nonzero probability:
 $$
 P_{\text{Laplace}}(b\mid a)=\frac{C(a,b)+1}{C(a)+|V|}
 $$
@@ -98,7 +100,7 @@ Here $|V|$ = vocabulary size. The corpus has **6 distinct words**.
 $$
 PP(W)=P(W)^{-1/N}
 $$
-$N$ = number of predicted tokens under the scoring convention.
+$N$ = number of predicted tokens under the scoring convention. **Perplexity measures predictive uncertainty:** on the same test text, a model assigning higher probability has lower perplexity.
 
 For $N=2$: $P(W)=1/16\Rightarrow PP=4$; $P(W)=1/4\Rightarrow PP=2$.
 
@@ -109,7 +111,7 @@ Classifies text, e.g. spam / not spam:
 $$
 P(C\mid W)=\frac{P(W\mid C)P(C)}{P(W)}
 $$
-- **Prior:** $P(C)$; **likelihood:** $P(W\mid C)$; **posterior:** $P(C\mid W)$.
+- **Prior:** class probability before reading W; **likelihood:** probability of W given that class; **posterior:** class probability after reading W. See [[14 - Naive Bayes]] for definitions and the numerical.
 - “Naive” assumption: word features are conditionally independent **given the class**.
 - Detailed Naive Bayes numericals belong to PDF 14.
 

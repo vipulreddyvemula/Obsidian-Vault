@@ -194,12 +194,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "congitive science/10 - Problem Solving.md",
+                "file": "congitive science/11-12 - Linguistics and NLP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10 - Problem Solving"
+              "title": "11-12 - Linguistics and NLP"
             }
           }
         ],
@@ -366,14 +366,15 @@
   },
   "active": "2fbe420d270f8fed",
   "lastOpenFiles": [
-    "congitive science/11-12 - POS and Parsing Practice.md",
+    "congitive science/16 - Hidden Markov Models.md",
+    "congitive science/10 - Problem Solving.md",
+    "congitive science/13 - Statistical Language Models.md",
     "congitive science/11-12 - Linguistics and NLP.md",
+    "congitive science/11-12 - POS and Parsing Practice.md",
+    "congitive science/01 - Revise First.md",
     "congitive science/06-08 - Artificial Neural Networks.md",
     "congitive science/00 - Study Notes Index.md",
-    "congitive science/10 - Problem Solving.md",
     "congitive science/14 - Naive Bayes.md",
-    "congitive science/13 - Statistical Language Models.md",
-    "congitive science/16 - Hidden Markov Models.md",
     "Python/UDP.md",
     "Python/NetworkX.md",
     "Python/Numpy.md",
@@ -393,7 +394,6 @@
     "Cognitive Science/PDF 2 The Linguistic Approach.md",
     "Cognitive Science/PDF Problem-Solving.md",
     "Cognitive Science/PDF 5 - Naive Bayes.md",
-    "Cognitive Science/PDF 4 Statistical Language Models.md",
     "Cognitive Science",
     "Python",
     "PHP",

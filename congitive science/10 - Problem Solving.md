@@ -4,7 +4,7 @@ unit: 4
 lecture_pdf: 10
 updated: 2026-11-10
 ---
-
+	
 # Problem Solving — Short Notes
 
 > [!abstract] At a glance
@@ -17,8 +17,8 @@ updated: 2026-11-10
 
 
 ## 1. Core definitions
-- **Cognition:** acquiring, processing, storing and using information; thinking, knowing, remembering and communicating.
-- **Problem solving:** overcoming obstacles to reach a goal when the solution is not immediately obvious.
+- **Cognition:** mental processes for acquiring, processing, storing and using information. **Example:** reading a question, recalling a formula and calculating an answer.
+- **Problem solving:** using actions and strategies to overcome obstacles and reach a goal. **Example:** transform $2x+5=17$ into $x=6$.
 - **Reasoning:** drawing conclusions from premises/evidence; it can support problem solving.
 
 | Term | Meaning | Tower of Hanoi |
@@ -31,6 +31,8 @@ updated: 2026-11-10
 **Cognitive cycle:** Identify → Represent → Choose strategy → Apply → Evaluate → Revise.
 
 ## 2. Well-defined vs. ill-defined
+**Well-defined problem:** clear starting conditions, goal, rules and a way to check the answer. **Ill-defined problem:** one or more of these are unclear or open-ended.
+
 
 | Aspect | Well-defined | Ill-defined |
 | --- | --- | --- |
@@ -47,26 +49,27 @@ Faculty classification: equation, Sudoku and average marks = well-defined; stres
 - **Prototype:** typical representative, e.g. sparrow. Enables quick recognition but can cause bias, stereotypes and miscommunication. A penguin is still a bird.
 - **Concept shifting:** revise a category after new information—birds include non-flying penguins; botanical fruit includes tomatoes.
 - Keep the lecture’s **prototype-biased remembering** (recalling an unusual dog as more typical) distinct from revising a category.
-- **Novice:** surface features, limited knowledge, trial and error. **Expert:** organized domain knowledge, underlying structure, schemas and effective strategies.
+- **Novice:** beginner with limited domain knowledge; often focuses on surface details. **Expert:** has organized knowledge and recognizes underlying structure. **Example:** an expert recognizes a recurrence method instead of trying random algebra.
 
 ## 4. Memory, algorithms and heuristics
-**Working memory** holds/manipulates the current problem; **long-term memory** supplies knowledge, past examples and methods.
+**Working memory** temporarily holds and manipulates information; **long-term memory** stores learned knowledge and methods. **Example:** WM holds $3x=2$ while LTM supplies “divide both sides by 3”.
 
 Flow: encode problem in WM → retrieve from LTM → apply method → compare with goal → repeat if needed.
 
-- **Algorithm:** defined steps with a specified guarantee under its assumptions; not necessarily fast.
+- **Algorithm:** defined steps that solve the specified problem under stated conditions. **Example:** binary search on sorted data. It provides a guarantee, but algorithms are not always fast.
 - **Heuristic:** useful shortcut without a guarantee, e.g. move toward a maze’s apparent exit.
 - **Anti-looping:** avoid revisiting states or undoing actions without useful progress.
 - **Subgoal:** intermediate target, e.g. shoes → 5 km → 10 km → marathon.
 - Real-world problems need flexible representations, creativity, planning and decisions under uncertainty.
 
 ## 5. Means–ends analysis and GPS
-**Means–ends:** compare current and goal states → identify difference → choose operator → create prerequisite subgoals → act and evaluate.
+**Means–ends analysis:** a strategy that compares the current state with the goal, identifies the difference, and chooses actions/subgoals to overcome it.
+**Steps:** compare → identify difference → choose operator → create subgoals → act → evaluate.
 
 Example: research paper → choose topic → gather sources → outline → draft → revise.
 A necessary step can temporarily move away from the final goal, as in Hanoi.
 
-**General Problem Solver (Newell and Simon):** computational framework modeling problem solving as search through states using operators and heuristics. **GPS uses means–ends analysis**; the framework and strategy are distinct.
+**General Problem Solver (GPS; Newell and Simon):** a computational model representing problem solving as search through a problem space using operators. **GPS uses means–ends analysis:** GPS is the overall model; means–ends is a strategy inside it.
 
 Faculty route example: Home → Main Road → Junction → College Road → College. Forward search starts at home; backward search works from the goal toward prerequisites.
 
@@ -106,7 +109,13 @@ Start bottom-left: up through left column and beyond → diagonal down-right thr
 - **GPS + Hanoi, 10 marks (2023/2025 mid-sem Q3):** define GPS → states/operators/constraints → means–ends subgoals → seven moves → advantages/limitations. Draw initial and goal arrangements.
 - **Algorithms save time/energy, 10 marks (2024 end-sem Q5):** systematic procedure, reduced cognitive load/errors, reuse and fewer unnecessary steps; explain recursive Hanoi and its 7-move solution.
 - **Well-/ill-defined, 10 marks (2024 Q6):** compare at least five features with examples; equation $2x+5=17\Rightarrow x=6$ versus improving college life.
-- **Reasoning, 7 marks (2024 Q3; PDF 15 topic):** deduction = rule→necessary conclusion (sparrow has feathers); induction = observations→probable generalization (observed black crows); abduction = evidence→plausible explanation (wet ground may indicate rain).
+- **Reasoning, 7 marks (2024 Q3; PDF 15 topic):** use the three definitions and examples below.
+
+| Type | Definition | Example |
+| --- | --- | --- |
+| Deduction | Draw a conclusion guaranteed by valid inference if the premises are true | All birds have feathers; sparrow is a bird → sparrow has feathers |
+| Induction | Generalize from observations; conclusion is probable, not guaranteed | Several observed crows are black → crows are probably black |
+| Abduction | Infer a plausible explanation for evidence | Wet ground → perhaps it rained; other causes remain possible |
 
 **Recall:** represent → search → subgoals → legal operators → goal test.
 
