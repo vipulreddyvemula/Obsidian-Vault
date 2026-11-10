@@ -88,14 +88,14 @@ Language can be spoken, written or signed; speech is only one modality.
 
 **NER labels entities; POS labels grammar.**
 
-| Pipeline stage | Definition | Example |
-| --- | --- | --- |
-| Cleaning | Standardize unwanted formatting | Movie!!! → movie |
-| Tokenization | Split text into units called tokens | I love NLP → I · love · NLP |
-| Stopword removal | Remove selected frequent words | the, a, was |
-| Normalization | Reduce related forms to roots/base forms | studies → studi / study |
-| Vectorization | Convert text into numeric features | A count vector |
-| Classification | Select a predicted category | Positive sentiment |
+| Pipeline stage   | Definition                               | Example                     |
+| ---------------- | ---------------------------------------- | --------------------------- |
+| Cleaning         | Standardize unwanted formatting          | Movie!!! → movie            |
+| Tokenization     | Split text into units called tokens      | I love NLP → I · love · NLP |
+| Stopword removal | Remove selected frequent words           | the, a, was                 |
+| Normalization    | Reduce related forms to roots/base forms | studies → studi / study     |
+| Vectorization    | Convert text into numeric features       | A count vector              |
+| Classification   | Select a predicted category              | Positive sentiment          |
 
 Faculty sentence: **“The Movie was ABSOLUTELY Fantastic!!!”** → clean/tokenize → selected stopwords removed → **movie · absolutely · fantastic** → vectorize → Positive.
 
