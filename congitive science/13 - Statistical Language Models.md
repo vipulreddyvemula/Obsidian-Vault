@@ -8,6 +8,14 @@ lecture_pdf: 13
 
 # Statistical Language Models — Short Notes
 
+> [!abstract] At a glance
+> **Language model:** probabilities of words/sequences.
+> **Chain rule = exact full history. Markov = approximate short history.**
+> **N-gram uses N−1 previous words.** MLE = pair count ÷ context count.
+> **Add-one:** $(C(a,b)+1)/(C(a)+|V|)$. **Perplexity:** $P(W)^{-1/N}$; lower is better on comparable tests.
+> **Trap:** unseen combination ≠ unknown word.
+
+
 > **Core idea:** Learn word patterns from text to predict the next word and assign probabilities to sentences.
 
 ## 1. Language model
@@ -113,6 +121,18 @@ $$
 - **Unseen N-gram ≠ OOV word.**
 - **Lower comparable perplexity = better prediction.**
 - These ideas prepare you for **PDF 16 — Hidden Markov Models**.
+
+## Test yourself — answer before expanding
+
+> [!question]- How many previous words does a trigram use?
+> Two.
+
+> [!question]- What are MLE and smoothed P(NLP given I) in the lecture corpus?
+> 0/4 = 0; after smoothing, 1/(4+6) = 0.1.
+
+> [!question]- Which is exact: chain rule or Markov assumption?
+> Chain rule. Markov limits the history as an approximation.
+
 
 ---
 Source: condensed from the last explanation in [Organize PDF Topics](https://chatgpt.com/c/6aef17a8-9c54-83ec-8e63-e1a2ab7ed46f), “Unit 6, Part 1: Statistical Language Models”.

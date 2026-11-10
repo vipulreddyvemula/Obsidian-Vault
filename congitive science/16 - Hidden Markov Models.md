@@ -7,6 +7,14 @@ updated: 2026-11-10
 
 # Hidden Markov Models — Short Notes
 
+> [!abstract] At a glance
+> **HMM = hidden states + observed evidence.** $\lambda=(A,B,\pi)$.
+> **Transition:** state→state. **Emission:** state→observation.
+> **Forward = SUM. Viterbi = MAX + backtrack. Baum–Welch = LEARN.**
+> Weather U,U,no umbrella → **RRS**; joint **0.06804**, observation probability **0.120445**.
+> **2024 Q11:** NNN; joint **0.000512**. Include START/END and use the given tags.
+
+
 ## 1. Core idea and components
 An **HMM** infers hidden states from observable evidence over time: weather is hidden; umbrella use is observed. A Markov chain observes the states directly.
 
@@ -116,6 +124,18 @@ Terminate: $0.00128\times P(END\mid N)=0.000512$.
 **Recall:** Forward = sum; Viterbi = max + backtrack; Baum–Welch = learn.
 
 Related: [[13 - Statistical Language Models]] · [[14 - Naive Bayes]]
+
+## Test yourself — answer before expanding
+
+> [!question]- Why is Forward different from Viterbi?
+> Forward sums over paths for P(O); Viterbi retains the best path per state and backtracks.
+
+> [!question]- Why does the PYQ give NNN instead of NVN?
+> The unsmoothed training data gives V→N probability 0.
+
+> [!question]- Is 0.06804 the posterior of RRS?
+> No. It is the joint probability. Divide by 0.120445 for posterior ≈ 0.5649.
+
 
 ---
 Source: condensed from [Organize PDF Topics](https://chatgpt.com/c/6aef17a8-9c54-83ec-8e63-e1a2ab7ed46f). Updated 10 November 2026.

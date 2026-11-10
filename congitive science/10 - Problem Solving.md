@@ -7,6 +7,15 @@ updated: 2026-11-10
 
 # Problem Solving — Short Notes
 
+> [!abstract] At a glance
+> **Represent:** initial state → legal operators → goal; all possibilities form the problem space.
+> **GPS = framework; means–ends = strategy** using differences and subgoals.
+> **Hanoi:** top 2 A→B; largest A→C; top 2 B→C. Minimum $2^n-1$ → **7 moves for 3 disks**.
+> **Well-defined:** clear states/rules/goal test. **Ill-defined:** ambiguous goals/constraints.
+> **Nine dots:** extend beyond the grid; change the representation.
+> **Trap:** a necessary subgoal can temporarily move away from the final goal.
+
+
 ## 1. Core definitions
 - **Cognition:** acquiring, processing, storing and using information; thinking, knowing, remembering and communicating.
 - **Problem solving:** overcoming obstacles to reach a goal when the solution is not immediately obvious.
@@ -100,6 +109,18 @@ Start bottom-left: up through left column and beyond → diagonal down-right thr
 - **Reasoning, 7 marks (2024 Q3; PDF 15 topic):** deduction = rule→necessary conclusion (sparrow has feathers); induction = observations→probable generalization (observed black crows); abduction = evidence→plausible explanation (wet ground may indicate rain).
 
 **Recall:** represent → search → subgoals → legal operators → goal test.
+
+## Test yourself — answer before expanding
+
+> [!question]- What must a 10-mark GPS/Hanoi answer include?
+> GPS definition; initial/goal states, operators and constraints; subgoals; seven moves; advantages and limitations.
+
+> [!question]- What is the difference between an algorithm and a heuristic?
+> An algorithm has specified steps and guarantees under its assumptions; a heuristic is a shortcut without that guarantee.
+
+> [!question]- How is a prototype different from a concept?
+> A concept is the category; a prototype is a typical representative.
+
 
 ---
 Source: condensed from [Organize PDF Topics](https://chatgpt.com/c/6aef17a8-9c54-83ec-8e63-e1a2ab7ed46f). Updated 10 November 2026.

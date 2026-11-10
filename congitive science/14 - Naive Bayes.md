@@ -7,6 +7,15 @@ updated: 2026-11-10
 
 # Naive Bayes — Short Notes
 
+> [!abstract] At a glance
+> **Prior × word likelihoods → score → normalize for posterior.**
+> **Naive:** features are conditionally independent **given class**.
+> **Priors use DOCUMENTS; likelihoods use WORD TOKENS; vocabulary uses UNIQUE WORDS.**
+> Add-one: $(C(w,C)+1)/(N_C+|V|)$.
+> Faculty “good movie”: $|V|=7$, class tokens=8 → denominator=15 → **Positive posterior 80%**.
+> **Trap:** score 0.026667 is not posterior 0.8.
+
+
 ## 1. Core idea
 A **classifier** assigns an input to a predefined category using features, e.g. email words → spam/not spam.
 
@@ -99,6 +108,18 @@ These are practice examples, not identified as actual PYQs.
 - **Score ≠ posterior**: divide by the sum of scores when asked for a probability.
 
 Related: [[13 - Statistical Language Models]] · [[16 - Hidden Markov Models]]
+
+## Test yourself — answer before expanding
+
+> [!question]- Why can we omit P(X) when selecting a class?
+> It is the same positive denominator for every class.
+
+> [!question]- What are the three different counts?
+> Documents for priors; class word tokens for likelihood denominator; unique training words for vocabulary.
+
+> [!question]- How do scores become posteriors?
+> Divide each score by the sum of class scores.
+
 
 ---
 Source: condensed from [Organize PDF Topics](https://chatgpt.com/c/6aef17a8-9c54-83ec-8e63-e1a2ab7ed46f). Updated 10 November 2026.
